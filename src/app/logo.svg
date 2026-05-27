@@ -1,15 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
   <rect width="512" height="512" rx="64" fill="#1A1A1A"/>
-  <text x="256" y="350" text-anchor="middle"
-        font-family="Impact, 'Arial Black', 'Helvetica Neue', sans-serif"
-        font-weight="900"
-        font-size="380"
-        fill="#F8B500"
-        letter-spacing="-10">H</text>
-  <text x="256" y="450" text-anchor="middle"
+  <g transform="translate(256 200) scale(0.92) translate(-256 -250)">
+    <path fill="#F8B500" d="
+      M 256 84
+      L 270 116 L 288 150 L 348 152 L 472 96
+      L 430 168 L 396 150 L 372 210 L 334 190 L 310 246 L 286 222
+      L 280 310 L 278 352 L 320 416 L 268 388 L 256 402
+      L 244 388 L 192 416 L 234 352 L 232 310
+      L 226 222 L 202 246 L 178 190 L 140 210 L 116 150 L 82 168 L 40 96
+      L 164 152 L 224 150 L 242 116
+      Z"/>
+  </g>
+  <text x="256" y="452" text-anchor="middle"
         font-family="'Helvetica Neue', Arial, sans-serif"
-        font-weight="700"
-        font-size="56"
-        fill="#FFFFFF"
-        letter-spacing="6">HAWKS DRILL</text>
+        font-weight="700" font-size="54" fill="#FFFFFF" letter-spacing="6">HAWKS DRILL</text>
 </svg>

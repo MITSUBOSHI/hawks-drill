@@ -14,7 +14,9 @@ const oswald = Oswald({
 });
 
 const basePath = process.env.CAPACITOR === "true" ? "" : TEAM.basePath;
-const logoUrl = `${basePath}/${TEAM.logo.png}`;
+// OGP/Twitter 画像は metadataBase(siteUrl, basePath を含む) を基準に解決されるため、
+// ここでは basePath を付けない（付けると basePath が二重になる）。
+const logoUrl = `/${TEAM.logo.png}`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(TEAM.siteUrl),
