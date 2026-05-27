@@ -1,5 +1,5 @@
 [
-  {"year":2003,"category":"regular","round":0,"name":"馬原 孝浩","name_kana":"まはら たかひろ","position":"投手","team":"九州共立大","team_kana":"","isLotteryLoss":false},
+  {"year":2003,"category":"regular","round":0,"name":"馬原 孝浩","name_kana":"まはら たかひろ","position":"投手","team":"九州共立大","team_kana":"","isLotteryLoss":false,"note":"自由獲得枠"},
   {"year":2003,"category":"regular","round":2,"name":"城所 龍磨","name_kana":"きどころ りゅうま","position":"外野手","team":"中京高","team_kana":"","isLotteryLoss":false},
   {"year":2003,"category":"regular","round":4,"name":"明石 健志","name_kana":"あかし けんじ","position":"内野手","team":"山梨学院大付高","team_kana":"","isLotteryLoss":false},
   {"year":2003,"category":"regular","round":5,"name":"榎本 敏孝","name_kana":"えのもと としたか","position":"投手","team":"西淀川高","team_kana":"","isLotteryLoss":false},

@@ -4,6 +4,7 @@ import { useState } from "react";
 import Ruby from "@/components/common/Ruby";
 import { positionKanaMap } from "@/constants/draft";
 import { DraftPick, DraftYear } from "@/types/DraftPick";
+import { TEAM } from "@/config/team";
 
 type DraftTableProps = {
   picks: DraftPick[];
@@ -75,7 +76,7 @@ export default function DraftTable({
                 </td>
                 <td className="px-3 py-2 whitespace-nowrap">
                   <span className="flex items-center gap-1">
-                    {pick.round}位
+                    {pick.round > 0 ? `${pick.round}位` : (pick.note ?? "ー")}
                     {pick.isLotteryLoss && (
                       <span className="relative">
                         <button
@@ -114,7 +115,7 @@ export default function DraftTable({
       <p className="text-xs text-[var(--text-secondary)] mt-2 text-right">
         データソース:{" "}
         <a
-          href={`https://draft.npb.jp/draft/${year}/draftlist_db.html`}
+          href={TEAM.npb.draftUrlTemplate.replace("{year}", String(year))}
           target="_blank"
           rel="noopener noreferrer"
           className="underline"

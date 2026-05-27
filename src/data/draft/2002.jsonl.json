@@ -1,6 +1,6 @@
 [
-  {"year":2002,"category":"regular","round":0,"name":"和田 毅","name_kana":"わだ つよし","position":"投手","team":"早稲田大","team_kana":"","isLotteryLoss":false},
-  {"year":2002,"category":"regular","round":0,"name":"新垣 渚","name_kana":"あらかき なぎさ","position":"投手","team":"九州共立大","team_kana":"","isLotteryLoss":false},
+  {"year":2002,"category":"regular","round":0,"name":"和田 毅","name_kana":"わだ つよし","position":"投手","team":"早稲田大","team_kana":"","isLotteryLoss":false,"note":"自由獲得枠"},
+  {"year":2002,"category":"regular","round":0,"name":"新垣 渚","name_kana":"あらかき なぎさ","position":"投手","team":"九州共立大","team_kana":"","isLotteryLoss":false,"note":"自由獲得枠"},
   {"year":2002,"category":"regular","round":4,"name":"溝口 大樹","name_kana":"みぞぐち だいき","position":"投手","team":"戸畑商高","team_kana":"","isLotteryLoss":false},
   {"year":2002,"category":"regular","round":5,"name":"大野 隆治","name_kana":"おおの りゅうじ","position":"捕手","team":"日本大","team_kana":"","isLotteryLoss":false},
   {"year":2002,"category":"regular","round":6,"name":"森本 学","name_kana":"もりもと さとる","position":"内野手","team":"シダックス","team_kana":"","isLotteryLoss":false},
