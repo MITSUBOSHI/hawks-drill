@@ -1,8 +1,8 @@
 [
-  {"year":2004,"category":"regular","round":1,"name":"江川 智晃","name_kana":"","position":"投手","team":"宇治山田商高","team_kana":"","isLotteryLoss":false},
-  {"year":2004,"category":"regular","round":3,"name":"高橋 徹","name_kana":"","position":"投手","team":"横浜創学館高","team_kana":"","isLotteryLoss":false},
-  {"year":2004,"category":"regular","round":4,"name":"中西 健太","name_kana":"","position":"捕手","team":"北大津高","team_kana":"","isLotteryLoss":false},
-  {"year":2004,"category":"regular","round":5,"name":"高橋 秀聡","name_kana":"","position":"投手","team":"九州共立大","team_kana":"","isLotteryLoss":false},
-  {"year":2004,"category":"regular","round":6,"name":"加藤 領健","name_kana":"","position":"捕手","team":"青山学院大","team_kana":"","isLotteryLoss":false},
-  {"year":2004,"category":"regular","round":7,"name":"定岡 卓摩","name_kana":"","position":"内野手","team":"福岡工大城東高","team_kana":"","isLotteryLoss":false}
+  {"year":2004,"category":"regular","round":1,"name":"江川 智晃","name_kana":"えがわ ともあき","position":"投手","team":"宇治山田商高","team_kana":"","isLotteryLoss":false},
+  {"year":2004,"category":"regular","round":3,"name":"高橋 徹","name_kana":"たかはし とおる","position":"投手","team":"横浜創学館高","team_kana":"","isLotteryLoss":false},
+  {"year":2004,"category":"regular","round":4,"name":"中西 健太","name_kana":"なかにし けんた","position":"捕手","team":"北大津高","team_kana":"","isLotteryLoss":false},
+  {"year":2004,"category":"regular","round":5,"name":"高橋 秀聡","name_kana":"たかはし ひであき","position":"投手","team":"九州共立大","team_kana":"","isLotteryLoss":false},
+  {"year":2004,"category":"regular","round":6,"name":"加藤 領健","name_kana":"かとう りょうた","position":"捕手","team":"青山学院大","team_kana":"","isLotteryLoss":false},
+  {"year":2004,"category":"regular","round":7,"name":"定岡 卓摩","name_kana":"さだおか たくま","position":"内野手","team":"福岡工大城東高","team_kana":"","isLotteryLoss":false}
 ]

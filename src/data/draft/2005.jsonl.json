@@ -1,13 +1,13 @@
 [
-  {"year":2005,"category":"regular","round":0,"name":"松田 宣浩","name_kana":"","position":"内野手","team":"亜細亜大","team_kana":"","isLotteryLoss":false},
-  {"year":2005,"category":"regular","round":3,"name":"藤岡 好明","name_kana":"","position":"投手","team":"ＪＲ九州","team_kana":"","isLotteryLoss":false},
-  {"year":2005,"category":"regular","round":4,"name":"甲藤 啓介","name_kana":"","position":"投手","team":"近畿大","team_kana":"","isLotteryLoss":false},
-  {"year":2005,"category":"regular","round":5,"name":"本多 雄一","name_kana":"","position":"内野手","team":"三菱重工名古屋","team_kana":"","isLotteryLoss":false},
-  {"year":2005,"category":"regular","round":6,"name":"柳瀬 明宏","name_kana":"","position":"投手","team":"龍谷大","team_kana":"","isLotteryLoss":false},
-  {"year":2005,"category":"regular","round":1,"name":"荒川 雄太","name_kana":"","position":"捕手","team":"日大高","team_kana":"","isLotteryLoss":false},
-  {"year":2005,"category":"regular","round":3,"name":"大西 正樹","name_kana":"","position":"投手","team":"神戸国際大付高","team_kana":"","isLotteryLoss":false},
-  {"year":2005,"category":"regular","round":4,"name":"大田原 隆太","name_kana":"","position":"投手","team":"都城工高","team_kana":"","isLotteryLoss":false},
-  {"year":2005,"category":"regular","round":5,"name":"川口 容資","name_kana":"","position":"投手","team":"楊志館高","team_kana":"","isLotteryLoss":false},
-  {"year":2005,"category":"development","round":1,"name":"小斉 祐輔","name_kana":"","position":"内野手","team":"東京農大生産学部","team_kana":"","isLotteryLoss":false},
-  {"year":2005,"category":"development","round":2,"name":"西山 道隆","name_kana":"","position":"投手","team":"愛媛マンダリンパイレーツ","team_kana":"","isLotteryLoss":false}
+  {"year":2005,"category":"regular","round":0,"name":"松田 宣浩","name_kana":"まつだ のぶひろ","position":"内野手","team":"亜細亜大","team_kana":"","isLotteryLoss":false},
+  {"year":2005,"category":"regular","round":3,"name":"藤岡 好明","name_kana":"ふじおか よしあき","position":"投手","team":"ＪＲ九州","team_kana":"","isLotteryLoss":false},
+  {"year":2005,"category":"regular","round":4,"name":"甲藤 啓介","name_kana":"かっとう けいすけ","position":"投手","team":"近畿大","team_kana":"","isLotteryLoss":false},
+  {"year":2005,"category":"regular","round":5,"name":"本多 雄一","name_kana":"ほんだ ゆういち","position":"内野手","team":"三菱重工名古屋","team_kana":"","isLotteryLoss":false},
+  {"year":2005,"category":"regular","round":6,"name":"柳瀬 明宏","name_kana":"やなせ あきひろ","position":"投手","team":"龍谷大","team_kana":"","isLotteryLoss":false},
+  {"year":2005,"category":"regular","round":1,"name":"荒川 雄太","name_kana":"あらかわ ゆうた","position":"捕手","team":"日大高","team_kana":"","isLotteryLoss":false},
+  {"year":2005,"category":"regular","round":3,"name":"大西 正樹","name_kana":"おおにし まさき","position":"投手","team":"神戸国際大付高","team_kana":"","isLotteryLoss":false},
+  {"year":2005,"category":"regular","round":4,"name":"大田原 隆太","name_kana":"おおたはら りゅうた","position":"投手","team":"都城工高","team_kana":"","isLotteryLoss":false},
+  {"year":2005,"category":"regular","round":5,"name":"川口 容資","name_kana":"かわぐち ようすけ","position":"投手","team":"楊志館高","team_kana":"","isLotteryLoss":false},
+  {"year":2005,"category":"development","round":1,"name":"小斉 祐輔","name_kana":"こさい ゆうすけ","position":"内野手","team":"東京農大生産学部","team_kana":"","isLotteryLoss":false},
+  {"year":2005,"category":"development","round":2,"name":"西山 道隆","name_kana":"にしやま みちたか","position":"投手","team":"愛媛マンダリンパイレーツ","team_kana":"","isLotteryLoss":false}
 ]

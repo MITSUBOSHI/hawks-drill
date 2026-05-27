@@ -1,15 +1,15 @@
 [
-  {"year":2020,"category":"regular","round":1,"name":"井上 朋也","name_kana":"","position":"内野手","team":"花咲徳栄高","team_kana":"","isLotteryLoss":false},
-  {"year":2020,"category":"regular","round":2,"name":"笹川 吉康","name_kana":"","position":"外野手","team":"横浜商業高","team_kana":"","isLotteryLoss":false},
-  {"year":2020,"category":"regular","round":3,"name":"牧原 巧汰","name_kana":"","position":"捕手","team":"日本大学藤沢高","team_kana":"","isLotteryLoss":false},
-  {"year":2020,"category":"regular","round":4,"name":"川原田 純平","name_kana":"","position":"内野手","team":"青森山田高","team_kana":"","isLotteryLoss":false},
-  {"year":2020,"category":"regular","round":5,"name":"田上 奏大","name_kana":"","position":"投手","team":"履正社高","team_kana":"","isLotteryLoss":false},
-  {"year":2020,"category":"development","round":1,"name":"佐藤 宏樹","name_kana":"","position":"投手","team":"慶應義塾大学","team_kana":"","isLotteryLoss":false},
-  {"year":2020,"category":"development","round":2,"name":"中道 佑哉","name_kana":"","position":"投手","team":"八戸学院大学","team_kana":"","isLotteryLoss":false},
-  {"year":2020,"category":"development","round":3,"name":"桑原 秀侍","name_kana":"","position":"投手","team":"神村学園高","team_kana":"","isLotteryLoss":false},
-  {"year":2020,"category":"development","round":4,"name":"早 真之介","name_kana":"","position":"外野手","team":"京都国際高","team_kana":"","isLotteryLoss":false},
-  {"year":2020,"category":"development","round":5,"name":"緒方 理貢","name_kana":"","position":"内野手","team":"駒澤大学","team_kana":"","isLotteryLoss":false},
-  {"year":2020,"category":"development","round":6,"name":"居谷 匠真","name_kana":"","position":"捕手","team":"明豊高","team_kana":"","isLotteryLoss":false},
-  {"year":2020,"category":"development","round":7,"name":"大城 真乃","name_kana":"","position":"投手","team":"宜野座高","team_kana":"","isLotteryLoss":false},
-  {"year":2020,"category":"development","round":8,"name":"中村 亮太","name_kana":"","position":"投手","team":"東京農業大学北海道オホーツク","team_kana":"","isLotteryLoss":false}
+  {"year":2020,"category":"regular","round":1,"name":"井上 朋也","name_kana":"いのうえ ともや","position":"内野手","team":"花咲徳栄高","team_kana":"","isLotteryLoss":false},
+  {"year":2020,"category":"regular","round":2,"name":"笹川 吉康","name_kana":"ささがわ よしやす","position":"外野手","team":"横浜商業高","team_kana":"","isLotteryLoss":false},
+  {"year":2020,"category":"regular","round":3,"name":"牧原 巧汰","name_kana":"まきはら こうた","position":"捕手","team":"日本大学藤沢高","team_kana":"","isLotteryLoss":false},
+  {"year":2020,"category":"regular","round":4,"name":"川原田 純平","name_kana":"かわらだ じゅんぺい","position":"内野手","team":"青森山田高","team_kana":"","isLotteryLoss":false},
+  {"year":2020,"category":"regular","round":5,"name":"田上 奏大","name_kana":"たのうえ そうた","position":"投手","team":"履正社高","team_kana":"","isLotteryLoss":false},
+  {"year":2020,"category":"development","round":1,"name":"佐藤 宏樹","name_kana":"さとう ひろき","position":"投手","team":"慶應義塾大学","team_kana":"","isLotteryLoss":false},
+  {"year":2020,"category":"development","round":2,"name":"中道 佑哉","name_kana":"なかみち ゆうや","position":"投手","team":"八戸学院大学","team_kana":"","isLotteryLoss":false},
+  {"year":2020,"category":"development","round":3,"name":"桑原 秀侍","name_kana":"くわはら しゅうじ","position":"投手","team":"神村学園高","team_kana":"","isLotteryLoss":false},
+  {"year":2020,"category":"development","round":4,"name":"早 真之介","name_kana":"はや しんのすけ","position":"外野手","team":"京都国際高","team_kana":"","isLotteryLoss":false},
+  {"year":2020,"category":"development","round":5,"name":"緒方 理貢","name_kana":"おがた りく","position":"内野手","team":"駒澤大学","team_kana":"","isLotteryLoss":false},
+  {"year":2020,"category":"development","round":6,"name":"居谷 匠真","name_kana":"いたに しょうま","position":"捕手","team":"明豊高","team_kana":"","isLotteryLoss":false},
+  {"year":2020,"category":"development","round":7,"name":"大城 真乃","name_kana":"おおしろ しんの","position":"投手","team":"宜野座高","team_kana":"","isLotteryLoss":false},
+  {"year":2020,"category":"development","round":8,"name":"中村 亮太","name_kana":"なかむら りょうた","position":"投手","team":"東京農業大学北海道オホーツク","team_kana":"","isLotteryLoss":false}
 ]

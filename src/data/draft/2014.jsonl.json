@@ -1,15 +1,15 @@
 [
-  {"year":2014,"category":"regular","round":1,"name":"松本 裕樹","name_kana":"","position":"投手","team":"盛岡大附属高","team_kana":"","isLotteryLoss":false},
-  {"year":2014,"category":"regular","round":2,"name":"栗原 陵矢","name_kana":"","position":"捕手","team":"春江工業高","team_kana":"","isLotteryLoss":false},
-  {"year":2014,"category":"regular","round":3,"name":"古澤 勝吾","name_kana":"","position":"内野手","team":"九州国際大付属高","team_kana":"","isLotteryLoss":false},
-  {"year":2014,"category":"regular","round":4,"name":"笠谷 俊介","name_kana":"","position":"投手","team":"大分商業高","team_kana":"","isLotteryLoss":false},
-  {"year":2014,"category":"regular","round":5,"name":"島袋 洋奨","name_kana":"","position":"投手","team":"中央大","team_kana":"","isLotteryLoss":false},
-  {"year":2014,"category":"development","round":1,"name":"幸山 一大","name_kana":"","position":"外野手","team":"富山第一高","team_kana":"","isLotteryLoss":false},
-  {"year":2014,"category":"development","round":2,"name":"齋藤 誠哉","name_kana":"","position":"投手","team":"磐田東高","team_kana":"","isLotteryLoss":false},
-  {"year":2014,"category":"development","round":3,"name":"山下 亜文","name_kana":"","position":"投手","team":"小松大谷高","team_kana":"","isLotteryLoss":false},
-  {"year":2014,"category":"development","round":4,"name":"堀内 汰門","name_kana":"","position":"捕手","team":"山村国際高","team_kana":"","isLotteryLoss":false},
-  {"year":2014,"category":"development","round":5,"name":"柿木 映二","name_kana":"","position":"投手","team":"柳川高","team_kana":"","isLotteryLoss":false},
-  {"year":2014,"category":"development","round":6,"name":"金子 将太","name_kana":"","position":"外野手","team":"大間々高","team_kana":"","isLotteryLoss":false},
-  {"year":2014,"category":"development","round":7,"name":"河野 大樹","name_kana":"","position":"内野手","team":"NOMOベースボールクラブ","team_kana":"","isLotteryLoss":false},
-  {"year":2014,"category":"development","round":8,"name":"中村 恵吾","name_kana":"","position":"投手","team":"富山サンダーバーズ","team_kana":"","isLotteryLoss":false}
+  {"year":2014,"category":"regular","round":1,"name":"松本 裕樹","name_kana":"まつもと ゆうき","position":"投手","team":"盛岡大附属高","team_kana":"","isLotteryLoss":false},
+  {"year":2014,"category":"regular","round":2,"name":"栗原 陵矢","name_kana":"くりはら りょうや","position":"捕手","team":"春江工業高","team_kana":"","isLotteryLoss":false},
+  {"year":2014,"category":"regular","round":3,"name":"古澤 勝吾","name_kana":"ふるさわ しょうご","position":"内野手","team":"九州国際大付属高","team_kana":"","isLotteryLoss":false},
+  {"year":2014,"category":"regular","round":4,"name":"笠谷 俊介","name_kana":"かさや しゅんすけ","position":"投手","team":"大分商業高","team_kana":"","isLotteryLoss":false},
+  {"year":2014,"category":"regular","round":5,"name":"島袋 洋奨","name_kana":"しまぶくろ ようすけ","position":"投手","team":"中央大","team_kana":"","isLotteryLoss":false},
+  {"year":2014,"category":"development","round":1,"name":"幸山 一大","name_kana":"こうやま かずひろ","position":"外野手","team":"富山第一高","team_kana":"","isLotteryLoss":false},
+  {"year":2014,"category":"development","round":2,"name":"齋藤 誠哉","name_kana":"さいとう せいや","position":"投手","team":"磐田東高","team_kana":"","isLotteryLoss":false},
+  {"year":2014,"category":"development","round":3,"name":"山下 亜文","name_kana":"やました あもん","position":"投手","team":"小松大谷高","team_kana":"","isLotteryLoss":false},
+  {"year":2014,"category":"development","round":4,"name":"堀内 汰門","name_kana":"ほりうち たもん","position":"捕手","team":"山村国際高","team_kana":"","isLotteryLoss":false},
+  {"year":2014,"category":"development","round":5,"name":"柿木 映二","name_kana":"かきのき えいじ","position":"投手","team":"柳川高","team_kana":"","isLotteryLoss":false},
+  {"year":2014,"category":"development","round":6,"name":"金子 将太","name_kana":"かねこ しょうた","position":"外野手","team":"大間々高","team_kana":"","isLotteryLoss":false},
+  {"year":2014,"category":"development","round":7,"name":"河野 大樹","name_kana":"こうの だいき","position":"内野手","team":"NOMOベースボールクラブ","team_kana":"","isLotteryLoss":false},
+  {"year":2014,"category":"development","round":8,"name":"中村 恵吾","name_kana":"なかむら けいご","position":"投手","team":"富山サンダーバーズ","team_kana":"","isLotteryLoss":false}
 ]

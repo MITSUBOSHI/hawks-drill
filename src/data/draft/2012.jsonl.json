@@ -1,12 +1,12 @@
 [
-  {"year":2012,"category":"regular","round":1,"name":"東浜 巨","name_kana":"","position":"投手","team":"亜細亜大","team_kana":"","isLotteryLoss":false},
-  {"year":2012,"category":"regular","round":2,"name":"伊藤 祐介","name_kana":"","position":"投手","team":"東北学院大","team_kana":"","isLotteryLoss":false},
-  {"year":2012,"category":"regular","round":3,"name":"高田 知季","name_kana":"","position":"内野手","team":"亜細亜大","team_kana":"","isLotteryLoss":false},
-  {"year":2012,"category":"regular","round":4,"name":"真砂 勇介","name_kana":"","position":"外野手","team":"西城陽高","team_kana":"","isLotteryLoss":false},
-  {"year":2012,"category":"regular","round":5,"name":"笠原 大芽","name_kana":"","position":"投手","team":"福岡工大城東高","team_kana":"","isLotteryLoss":false},
-  {"year":2012,"category":"regular","round":6,"name":"山中 浩史","name_kana":"","position":"投手","team":"Honda熊本","team_kana":"","isLotteryLoss":false},
-  {"year":2012,"category":"development","round":1,"name":"八木 健史","name_kana":"","position":"捕手","team":"群馬ダイヤモンドペガサス","team_kana":"","isLotteryLoss":false},
-  {"year":2012,"category":"development","round":2,"name":"大滝 勇佑","name_kana":"","position":"内野手","team":"地球環境高","team_kana":"","isLotteryLoss":false},
-  {"year":2012,"category":"development","round":3,"name":"飯田 優也","name_kana":"","position":"投手","team":"東京農大生物産業学部","team_kana":"","isLotteryLoss":false},
-  {"year":2012,"category":"development","round":4,"name":"宮崎 駿","name_kana":"","position":"内野手","team":"三重中京大","team_kana":"","isLotteryLoss":false}
+  {"year":2012,"category":"regular","round":1,"name":"東浜 巨","name_kana":"ひがしはま なお","position":"投手","team":"亜細亜大","team_kana":"","isLotteryLoss":false},
+  {"year":2012,"category":"regular","round":2,"name":"伊藤 祐介","name_kana":"いとう ゆうすけ","position":"投手","team":"東北学院大","team_kana":"","isLotteryLoss":false},
+  {"year":2012,"category":"regular","round":3,"name":"高田 知季","name_kana":"たかた ともき","position":"内野手","team":"亜細亜大","team_kana":"","isLotteryLoss":false},
+  {"year":2012,"category":"regular","round":4,"name":"真砂 勇介","name_kana":"まさご ゆうすけ","position":"外野手","team":"西城陽高","team_kana":"","isLotteryLoss":false},
+  {"year":2012,"category":"regular","round":5,"name":"笠原 大芽","name_kana":"かさはら たいが","position":"投手","team":"福岡工大城東高","team_kana":"","isLotteryLoss":false},
+  {"year":2012,"category":"regular","round":6,"name":"山中 浩史","name_kana":"やまなか ひろふみ","position":"投手","team":"Honda熊本","team_kana":"","isLotteryLoss":false},
+  {"year":2012,"category":"development","round":1,"name":"八木 健史","name_kana":"やぎ たけし","position":"捕手","team":"群馬ダイヤモンドペガサス","team_kana":"","isLotteryLoss":false},
+  {"year":2012,"category":"development","round":2,"name":"大滝 勇佑","name_kana":"おおたき ゆうすけ","position":"内野手","team":"地球環境高","team_kana":"","isLotteryLoss":false},
+  {"year":2012,"category":"development","round":3,"name":"飯田 優也","name_kana":"いいだ ゆうや","position":"投手","team":"東京農大生物産業学部","team_kana":"","isLotteryLoss":false},
+  {"year":2012,"category":"development","round":4,"name":"宮崎 駿","name_kana":"みやざき はやお","position":"内野手","team":"三重中京大","team_kana":"","isLotteryLoss":false}
 ]

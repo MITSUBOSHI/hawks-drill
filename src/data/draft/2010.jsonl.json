@@ -1,13 +1,13 @@
 [
-  {"year":2010,"category":"regular","round":1,"name":"山下 斐紹","name_kana":"","position":"捕手","team":"習志野高","team_kana":"","isLotteryLoss":false},
-  {"year":2010,"category":"regular","round":2,"name":"柳田 悠岐","name_kana":"","position":"外野手","team":"広島経済大","team_kana":"","isLotteryLoss":false},
-  {"year":2010,"category":"regular","round":3,"name":"南 貴樹","name_kana":"","position":"投手","team":"浦和学院高","team_kana":"","isLotteryLoss":false},
-  {"year":2010,"category":"regular","round":4,"name":"星野 大地","name_kana":"","position":"投手","team":"岡山東商高","team_kana":"","isLotteryLoss":false},
-  {"year":2010,"category":"regular","round":5,"name":"坂田 将人","name_kana":"","position":"投手","team":"祐誠高","team_kana":"","isLotteryLoss":false},
-  {"year":2010,"category":"development","round":1,"name":"安田 圭佑","name_kana":"","position":"外野手","team":"高知ファイティングドッグス","team_kana":"","isLotteryLoss":false},
-  {"year":2010,"category":"development","round":2,"name":"中原 大樹","name_kana":"","position":"内野手","team":"鹿児島城西高","team_kana":"","isLotteryLoss":false},
-  {"year":2010,"category":"development","round":3,"name":"伊藤 大智郎","name_kana":"","position":"投手","team":"誉高","team_kana":"","isLotteryLoss":false},
-  {"year":2010,"category":"development","round":4,"name":"千賀 滉大","name_kana":"","position":"投手","team":"蒲郡高","team_kana":"","isLotteryLoss":false},
-  {"year":2010,"category":"development","round":5,"name":"牧原 大成","name_kana":"","position":"内野手","team":"城北高","team_kana":"","isLotteryLoss":false},
-  {"year":2010,"category":"development","round":6,"name":"甲斐 拓也","name_kana":"","position":"捕手","team":"楊志館高","team_kana":"","isLotteryLoss":false}
+  {"year":2010,"category":"regular","round":1,"name":"山下 斐紹","name_kana":"やました あやつぐ","position":"捕手","team":"習志野高","team_kana":"","isLotteryLoss":false},
+  {"year":2010,"category":"regular","round":2,"name":"柳田 悠岐","name_kana":"やなぎた ゆうき","position":"外野手","team":"広島経済大","team_kana":"","isLotteryLoss":false},
+  {"year":2010,"category":"regular","round":3,"name":"南 貴樹","name_kana":"みなみ たかき","position":"投手","team":"浦和学院高","team_kana":"","isLotteryLoss":false},
+  {"year":2010,"category":"regular","round":4,"name":"星野 大地","name_kana":"ほしの だいち","position":"投手","team":"岡山東商高","team_kana":"","isLotteryLoss":false},
+  {"year":2010,"category":"regular","round":5,"name":"坂田 将人","name_kana":"さかた まさと","position":"投手","team":"祐誠高","team_kana":"","isLotteryLoss":false},
+  {"year":2010,"category":"development","round":1,"name":"安田 圭佑","name_kana":"やすだ けいすけ","position":"外野手","team":"高知ファイティングドッグス","team_kana":"","isLotteryLoss":false},
+  {"year":2010,"category":"development","round":2,"name":"中原 大樹","name_kana":"なかはら だいき","position":"内野手","team":"鹿児島城西高","team_kana":"","isLotteryLoss":false},
+  {"year":2010,"category":"development","round":3,"name":"伊藤 大智郎","name_kana":"いとう だいちろう","position":"投手","team":"誉高","team_kana":"","isLotteryLoss":false},
+  {"year":2010,"category":"development","round":4,"name":"千賀 滉大","name_kana":"せんが こうだい","position":"投手","team":"蒲郡高","team_kana":"","isLotteryLoss":false},
+  {"year":2010,"category":"development","round":5,"name":"牧原 大成","name_kana":"まきはら たいせい","position":"内野手","team":"城北高","team_kana":"","isLotteryLoss":false},
+  {"year":2010,"category":"development","round":6,"name":"甲斐 拓也","name_kana":"かい たくや","position":"捕手","team":"楊志館高","team_kana":"","isLotteryLoss":false}
 ]

@@ -1,14 +1,14 @@
 [
-  {"year":2011,"category":"regular","round":1,"name":"武田 翔太","name_kana":"","position":"投手","team":"宮崎日大高","team_kana":"","isLotteryLoss":false},
-  {"year":2011,"category":"regular","round":2,"name":"吉本 祥二","name_kana":"","position":"投手","team":"足立学園高","team_kana":"","isLotteryLoss":false},
-  {"year":2011,"category":"regular","round":3,"name":"塚田 正義","name_kana":"","position":"内野手","team":"白鴎大","team_kana":"","isLotteryLoss":false},
-  {"year":2011,"category":"regular","round":4,"name":"白根 尚貴","name_kana":"","position":"内野手","team":"開星高","team_kana":"","isLotteryLoss":false},
-  {"year":2011,"category":"regular","round":5,"name":"嘉弥真 新也","name_kana":"","position":"投手","team":"JX-ENEOS","team_kana":"","isLotteryLoss":false},
-  {"year":2011,"category":"development","round":1,"name":"釜元 豪","name_kana":"","position":"外野手","team":"西陵高","team_kana":"","isLotteryLoss":false},
-  {"year":2011,"category":"development","round":2,"name":"亀澤 恭平","name_kana":"","position":"内野手","team":"香川オリーブガイナーズ","team_kana":"","isLotteryLoss":false},
-  {"year":2011,"category":"development","round":3,"name":"三浦 翔太","name_kana":"","position":"投手","team":"岩手大","team_kana":"","isLotteryLoss":false},
-  {"year":2011,"category":"development","round":4,"name":"清水 貴之","name_kana":"","position":"投手","team":"群馬ダイヤモンドペガサス","team_kana":"","isLotteryLoss":false},
-  {"year":2011,"category":"development","round":5,"name":"新崎 慎弥","name_kana":"","position":"内野手","team":"日本文理大","team_kana":"","isLotteryLoss":false},
-  {"year":2011,"category":"development","round":6,"name":"笹沼 明広","name_kana":"","position":"捕手","team":"オール足利クラブ","team_kana":"","isLotteryLoss":false},
-  {"year":2011,"category":"development","round":7,"name":"飯田 一弥","name_kana":"","position":"捕手","team":"高知ファイティングドッグス","team_kana":"","isLotteryLoss":false}
+  {"year":2011,"category":"regular","round":1,"name":"武田 翔太","name_kana":"たけだ しょうた","position":"投手","team":"宮崎日大高","team_kana":"","isLotteryLoss":false},
+  {"year":2011,"category":"regular","round":2,"name":"吉本 祥二","name_kana":"よしもと しょうじ","position":"投手","team":"足立学園高","team_kana":"","isLotteryLoss":false},
+  {"year":2011,"category":"regular","round":3,"name":"塚田 正義","name_kana":"つかだ まさよし","position":"内野手","team":"白鴎大","team_kana":"","isLotteryLoss":false},
+  {"year":2011,"category":"regular","round":4,"name":"白根 尚貴","name_kana":"しらね なおき","position":"内野手","team":"開星高","team_kana":"","isLotteryLoss":false},
+  {"year":2011,"category":"regular","round":5,"name":"嘉弥真 新也","name_kana":"かやま しんや","position":"投手","team":"JX-ENEOS","team_kana":"","isLotteryLoss":false},
+  {"year":2011,"category":"development","round":1,"name":"釜元 豪","name_kana":"かまもと ごう","position":"外野手","team":"西陵高","team_kana":"","isLotteryLoss":false},
+  {"year":2011,"category":"development","round":2,"name":"亀澤 恭平","name_kana":"かめざわ きょうへい","position":"内野手","team":"香川オリーブガイナーズ","team_kana":"","isLotteryLoss":false},
+  {"year":2011,"category":"development","round":3,"name":"三浦 翔太","name_kana":"みうら しょうた","position":"投手","team":"岩手大","team_kana":"","isLotteryLoss":false},
+  {"year":2011,"category":"development","round":4,"name":"清水 貴之","name_kana":"しみず たかし","position":"投手","team":"群馬ダイヤモンドペガサス","team_kana":"","isLotteryLoss":false},
+  {"year":2011,"category":"development","round":5,"name":"新崎 慎弥","name_kana":"あらさき しんや","position":"内野手","team":"日本文理大","team_kana":"","isLotteryLoss":false},
+  {"year":2011,"category":"development","round":6,"name":"笹沼 明広","name_kana":"ささぬま あきひろ","position":"捕手","team":"オール足利クラブ","team_kana":"","isLotteryLoss":false},
+  {"year":2011,"category":"development","round":7,"name":"飯田 一弥","name_kana":"いいだ かずや","position":"捕手","team":"高知ファイティングドッグス","team_kana":"","isLotteryLoss":false}
 ]
