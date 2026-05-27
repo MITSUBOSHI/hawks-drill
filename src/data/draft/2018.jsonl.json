@@ -1,0 +1,13 @@
+[
+  {"year":2018,"category":"regular","round":1,"name":"甲斐野 央","name_kana":"","position":"投手","team":"東洋大学","team_kana":"","isLotteryLoss":false},
+  {"year":2018,"category":"regular","round":2,"name":"杉山 一樹","name_kana":"","position":"投手","team":"三菱重工広島","team_kana":"","isLotteryLoss":false},
+  {"year":2018,"category":"regular","round":3,"name":"野村 大樹","name_kana":"","position":"内野手","team":"早稲田実業","team_kana":"","isLotteryLoss":false},
+  {"year":2018,"category":"regular","round":4,"name":"板東 湧梧","name_kana":"","position":"投手","team":"JR東日本","team_kana":"","isLotteryLoss":false},
+  {"year":2018,"category":"regular","round":5,"name":"水谷 瞬","name_kana":"","position":"外野手","team":"石見智翠館高","team_kana":"","isLotteryLoss":false},
+  {"year":2018,"category":"regular","round":6,"name":"泉 圭輔","name_kana":"","position":"投手","team":"金沢星稜大学","team_kana":"","isLotteryLoss":false},
+  {"year":2018,"category":"regular","round":7,"name":"奥村 政稔","name_kana":"","position":"投手","team":"三菱日立パワーシステムズ","team_kana":"","isLotteryLoss":false},
+  {"year":2018,"category":"development","round":1,"name":"渡邉 陸","name_kana":"","position":"捕手","team":"神村学園高","team_kana":"","isLotteryLoss":false},
+  {"year":2018,"category":"development","round":2,"name":"岡本 直也","name_kana":"","position":"投手","team":"東京農業大学北海道オホーツク","team_kana":"","isLotteryLoss":false},
+  {"year":2018,"category":"development","round":3,"name":"重田 倫明","name_kana":"","position":"投手","team":"国士舘大学","team_kana":"","isLotteryLoss":false},
+  {"year":2018,"category":"development","round":4,"name":"中村 宜聖","name_kana":"","position":"外野手","team":"西日本短期大学附属高","team_kana":"","isLotteryLoss":false}
+]

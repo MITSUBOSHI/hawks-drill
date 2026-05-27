@@ -1,0 +1,14 @@
+[
+  {"year":2019,"category":"regular","round":1,"name":"佐藤 直樹","name_kana":"","position":"外野手","team":"JR西日本","team_kana":"","isLotteryLoss":false},
+  {"year":2019,"category":"regular","round":2,"name":"海野 隆司","name_kana":"","position":"捕手","team":"東海大学","team_kana":"","isLotteryLoss":false},
+  {"year":2019,"category":"regular","round":3,"name":"津森 宥紀","name_kana":"","position":"投手","team":"東北福祉大学","team_kana":"","isLotteryLoss":false},
+  {"year":2019,"category":"regular","round":4,"name":"小林 珠維","name_kana":"","position":"内野手","team":"東海大学付属札幌高","team_kana":"","isLotteryLoss":false},
+  {"year":2019,"category":"regular","round":5,"name":"柳町 達","name_kana":"","position":"外野手","team":"慶應義塾大学","team_kana":"","isLotteryLoss":false},
+  {"year":2019,"category":"development","round":1,"name":"石塚 綜一郎","name_kana":"","position":"捕手","team":"黒沢尻工業高","team_kana":"","isLotteryLoss":false},
+  {"year":2019,"category":"development","round":2,"name":"大関 友久","name_kana":"","position":"投手","team":"仙台大学","team_kana":"","isLotteryLoss":false},
+  {"year":2019,"category":"development","round":3,"name":"伊藤 大将","name_kana":"","position":"内野手","team":"八戸学院光星高","team_kana":"","isLotteryLoss":false},
+  {"year":2019,"category":"development","round":4,"name":"勝連 大稀","name_kana":"","position":"内野手","team":"興南高","team_kana":"","isLotteryLoss":false},
+  {"year":2019,"category":"development","round":5,"name":"舟越 秀虎","name_kana":"","position":"外野手","team":"城北高","team_kana":"","isLotteryLoss":false},
+  {"year":2019,"category":"development","round":6,"name":"荒木 翔太","name_kana":"","position":"内野手","team":"千原台高","team_kana":"","isLotteryLoss":false},
+  {"year":2019,"category":"development","round":7,"name":"村上 舜","name_kana":"","position":"投手","team":"山形中央高","team_kana":"","isLotteryLoss":false}
+]

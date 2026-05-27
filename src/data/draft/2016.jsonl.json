@@ -1,0 +1,12 @@
+[
+  {"year":2016,"category":"regular","round":1,"name":"田中 正義","name_kana":"","position":"投手","team":"創価大","team_kana":"","isLotteryLoss":false},
+  {"year":2016,"category":"regular","round":2,"name":"古谷 優人","name_kana":"","position":"投手","team":"江陵高","team_kana":"","isLotteryLoss":false},
+  {"year":2016,"category":"regular","round":3,"name":"九鬼 隆平","name_kana":"","position":"捕手","team":"秀岳館高","team_kana":"","isLotteryLoss":false},
+  {"year":2016,"category":"regular","round":4,"name":"三森 大貴","name_kana":"","position":"内野手","team":"青森山田高","team_kana":"","isLotteryLoss":false},
+  {"year":2016,"category":"development","round":1,"name":"大本 将吾","name_kana":"","position":"外野手","team":"帝京五高","team_kana":"","isLotteryLoss":false},
+  {"year":2016,"category":"development","round":2,"name":"長谷川 宙輝","name_kana":"","position":"投手","team":"聖徳学園高","team_kana":"","isLotteryLoss":false},
+  {"year":2016,"category":"development","round":3,"name":"田城 飛翔","name_kana":"","position":"外野手","team":"八戸学院光星高","team_kana":"","isLotteryLoss":false},
+  {"year":2016,"category":"development","round":4,"name":"森山 孔介","name_kana":"","position":"内野手","team":"藤沢翔陵高","team_kana":"","isLotteryLoss":false},
+  {"year":2016,"category":"development","round":5,"name":"清水 陸哉","name_kana":"","position":"外野手","team":"京都国際高","team_kana":"","isLotteryLoss":false},
+  {"year":2016,"category":"development","round":6,"name":"松本 龍憲","name_kana":"","position":"内野手","team":"崇徳高","team_kana":"","isLotteryLoss":false}
+]

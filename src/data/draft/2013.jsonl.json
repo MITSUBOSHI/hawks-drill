@@ -1,0 +1,10 @@
+[
+  {"year":2013,"category":"regular","round":1,"name":"加治屋 蓮","name_kana":"","position":"投手","team":"JR九州","team_kana":"","isLotteryLoss":false},
+  {"year":2013,"category":"regular","round":2,"name":"森 唯斗","name_kana":"","position":"投手","team":"三菱自動車倉敷オーシャンズ","team_kana":"","isLotteryLoss":false},
+  {"year":2013,"category":"regular","round":3,"name":"岡本 健","name_kana":"","position":"投手","team":"新日鐵住金かずさマジック","team_kana":"","isLotteryLoss":false},
+  {"year":2013,"category":"regular","round":4,"name":"上林 誠知","name_kana":"","position":"内野手","team":"仙台育英高","team_kana":"","isLotteryLoss":false},
+  {"year":2013,"category":"development","round":1,"name":"石川 柊太","name_kana":"","position":"投手","team":"創価大","team_kana":"","isLotteryLoss":false},
+  {"year":2013,"category":"development","round":2,"name":"東方 伸友","name_kana":"","position":"投手","team":"浜田商業高","team_kana":"","isLotteryLoss":false},
+  {"year":2013,"category":"development","round":3,"name":"曽根 海成","name_kana":"","position":"内野手","team":"京都国際高","team_kana":"","isLotteryLoss":false},
+  {"year":2013,"category":"development","round":4,"name":"張本 優大","name_kana":"","position":"捕手","team":"佛教大","team_kana":"","isLotteryLoss":false}
+]

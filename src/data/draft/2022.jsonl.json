@@ -1,0 +1,22 @@
+[
+  {"year":2022,"category":"regular","round":1,"name":"イヒネ イツア","name_kana":"","position":"内野手","team":"誉高","team_kana":"","isLotteryLoss":false},
+  {"year":2022,"category":"regular","round":2,"name":"大津 亮介","name_kana":"","position":"投手","team":"日本製鉄鹿島","team_kana":"","isLotteryLoss":false},
+  {"year":2022,"category":"regular","round":3,"name":"甲斐 生海","name_kana":"","position":"外野手","team":"東北福祉大学","team_kana":"","isLotteryLoss":false},
+  {"year":2022,"category":"regular","round":4,"name":"大野 稼頭央","name_kana":"","position":"投手","team":"大島高","team_kana":"","isLotteryLoss":false},
+  {"year":2022,"category":"regular","round":5,"name":"松本 晴","name_kana":"","position":"投手","team":"亜細亜大学","team_kana":"","isLotteryLoss":false},
+  {"year":2022,"category":"regular","round":6,"name":"吉田 賢吾","name_kana":"","position":"捕手","team":"桐蔭横浜大学","team_kana":"","isLotteryLoss":false},
+  {"year":2022,"category":"development","round":1,"name":"赤羽 蓮","name_kana":"","position":"投手","team":"霞ヶ浦高","team_kana":"","isLotteryLoss":false},
+  {"year":2022,"category":"development","round":2,"name":"山下 恭吾","name_kana":"","position":"内野手","team":"福岡大学附属大濠高","team_kana":"","isLotteryLoss":false},
+  {"year":2022,"category":"development","round":3,"name":"木村 光","name_kana":"","position":"投手","team":"佛教大学","team_kana":"","isLotteryLoss":false},
+  {"year":2022,"category":"development","round":4,"name":"内野 海斗","name_kana":"","position":"投手","team":"武田高","team_kana":"","isLotteryLoss":false},
+  {"year":2022,"category":"development","round":5,"name":"岡植 純平","name_kana":"","position":"投手","team":"飾磨工業高","team_kana":"","isLotteryLoss":false},
+  {"year":2022,"category":"development","round":6,"name":"佐々木 明都","name_kana":"","position":"投手","team":"学校法人松韻学園福島高","team_kana":"","isLotteryLoss":false},
+  {"year":2022,"category":"development","round":7,"name":"水口 創太","name_kana":"","position":"投手","team":"京都大学","team_kana":"","isLotteryLoss":false},
+  {"year":2022,"category":"development","round":8,"name":"宮﨑 颯","name_kana":"","position":"投手","team":"東京農業大学","team_kana":"","isLotteryLoss":false},
+  {"year":2022,"category":"development","round":9,"name":"重松 凱人","name_kana":"","position":"外野手","team":"亜細亜大学","team_kana":"","isLotteryLoss":false},
+  {"year":2022,"category":"development","round":10,"name":"前田 純","name_kana":"","position":"投手","team":"日本文理大学","team_kana":"","isLotteryLoss":false},
+  {"year":2022,"category":"development","round":11,"name":"佐藤 航太","name_kana":"","position":"内野手","team":"八戸学院光星高","team_kana":"","isLotteryLoss":false},
+  {"year":2022,"category":"development","round":12,"name":"飛田 悠成","name_kana":"","position":"内野手","team":"金沢高","team_kana":"","isLotteryLoss":false},
+  {"year":2022,"category":"development","round":13,"name":"西尾 歩真","name_kana":"","position":"内野手","team":"中京学院大学","team_kana":"","isLotteryLoss":false},
+  {"year":2022,"category":"development","round":14,"name":"盛島 稜大","name_kana":"","position":"捕手","team":"興南高","team_kana":"","isLotteryLoss":false}
+]

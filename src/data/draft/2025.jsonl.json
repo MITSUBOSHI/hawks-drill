@@ -1,0 +1,15 @@
+[
+  {"year":2025,"category":"regular","round":1,"name":"佐々木 麟太郎","name_kana":"","position":"内野手","team":"スタンフォード大学","team_kana":"","isLotteryLoss":false},
+  {"year":2025,"category":"regular","round":2,"name":"稲川 竜汰","name_kana":"","position":"投手","team":"九州共立大学","team_kana":"","isLotteryLoss":false},
+  {"year":2025,"category":"regular","round":3,"name":"鈴木 豪太","name_kana":"","position":"投手","team":"大阪商業大学","team_kana":"","isLotteryLoss":false},
+  {"year":2025,"category":"regular","round":4,"name":"相良 雅斗","name_kana":"","position":"投手","team":"岐阜協立大学","team_kana":"","isLotteryLoss":false},
+  {"year":2025,"category":"regular","round":5,"name":"髙橋 隆慶","name_kana":"","position":"内野手","team":"JR東日本","team_kana":"","isLotteryLoss":false},
+  {"year":2025,"category":"development","round":1,"name":"池田 栞太","name_kana":"","position":"捕手","team":"関根学園高","team_kana":"","isLotteryLoss":false},
+  {"year":2025,"category":"development","round":2,"name":"江崎 歩","name_kana":"","position":"内野手","team":"福井工業大学附属福井高","team_kana":"","isLotteryLoss":false},
+  {"year":2025,"category":"development","round":3,"name":"大矢 琉晟","name_kana":"","position":"投手","team":"中京大学","team_kana":"","isLotteryLoss":false},
+  {"year":2025,"category":"development","round":4,"name":"大橋 令和","name_kana":"","position":"内野手","team":"オイスカ浜松国際高","team_kana":"","isLotteryLoss":false},
+  {"year":2025,"category":"development","round":5,"name":"鈴木 貴大","name_kana":"","position":"外野手","team":"CLUB REBASE","team_kana":"","isLotteryLoss":false},
+  {"year":2025,"category":"development","round":6,"name":"長﨑 蓮汰","name_kana":"","position":"投手","team":"滋賀学園高","team_kana":"","isLotteryLoss":false},
+  {"year":2025,"category":"development","round":7,"name":"エミール セラーノ プレンサ","name_kana":"","position":"外野手","team":"幸福の科学学園高","team_kana":"","isLotteryLoss":false},
+  {"year":2025,"category":"development","round":8,"name":"大山 北斗","name_kana":"","position":"投手","team":"中央大学 準硬式野球部","team_kana":"","isLotteryLoss":false}
+]

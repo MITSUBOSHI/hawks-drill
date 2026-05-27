@@ -1,0 +1,13 @@
+[
+  {"year":2015,"category":"regular","round":1,"name":"高橋 純平","name_kana":"","position":"投手","team":"県岐阜商高","team_kana":"","isLotteryLoss":false},
+  {"year":2015,"category":"regular","round":2,"name":"小澤 怜史","name_kana":"","position":"投手","team":"日大三島高","team_kana":"","isLotteryLoss":false},
+  {"year":2015,"category":"regular","round":3,"name":"谷川原 健太","name_kana":"","position":"捕手","team":"豊橋中央高","team_kana":"","isLotteryLoss":false},
+  {"year":2015,"category":"regular","round":4,"name":"茶谷 健太","name_kana":"","position":"投手","team":"帝京三高","team_kana":"","isLotteryLoss":false},
+  {"year":2015,"category":"regular","round":5,"name":"黒瀬 健太","name_kana":"","position":"内野手","team":"初芝橋本高","team_kana":"","isLotteryLoss":false},
+  {"year":2015,"category":"regular","round":6,"name":"川瀬 晃","name_kana":"","position":"内野手","team":"大分商高","team_kana":"","isLotteryLoss":false},
+  {"year":2015,"category":"development","round":1,"name":"野澤 佑斗","name_kana":"","position":"投手","team":"つくば秀英高","team_kana":"","isLotteryLoss":false},
+  {"year":2015,"category":"development","round":2,"name":"児玉 龍也","name_kana":"","position":"投手","team":"神奈川大","team_kana":"","isLotteryLoss":false},
+  {"year":2015,"category":"development","round":3,"name":"樋越 優一","name_kana":"","position":"捕手","team":"東農大北海道オホーツク","team_kana":"","isLotteryLoss":false},
+  {"year":2015,"category":"development","round":4,"name":"中村 晨","name_kana":"","position":"投手","team":"ルーテル学院高","team_kana":"","isLotteryLoss":false},
+  {"year":2015,"category":"development","round":5,"name":"渡辺 健史","name_kana":"","position":"投手","team":"飯塚高","team_kana":"","isLotteryLoss":false}
+]
