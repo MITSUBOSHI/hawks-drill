@@ -88,6 +88,12 @@
   "npb": {
     "teamCode": "h",
     "rosterUrls": {
+      "2020": "https://web.archive.org/web/20200930185348/https://npb.jp/bis/teams/rst_h.html",
+      "2021": "https://web.archive.org/web/20211023174324/https://npb.jp/bis/teams/rst_h.html",
+      "2022": "https://web.archive.org/web/20221130035452/https://npb.jp/bis/teams/rst_h.html",
+      "2023": "https://web.archive.org/web/20231004231309/https://npb.jp/bis/teams/rst_h.html",
+      "2024": "https://web.archive.org/web/20241202235247/https://npb.jp/bis/teams/rst_h.html",
+      "2025": "https://web.archive.org/web/20251117014046/https://npb.jp/bis/teams/rst_h.html",
       "2026": "https://npb.jp/bis/teams/rst_h.html"
     },
     "draftUrlTemplate": "https://draft.npb.jp/draft/{year}/draftlist_h.html"
