@@ -133,15 +133,17 @@ export function toJsonlJson(records) {
   return "[\n" + lines.join(",\n") + "\n]\n";
 }
 
-// NPB の pc_v_kana を表示用ふりがなに整形する。
+// NPB の pc_v_kana を表示用ふりがなに整形する。読みは ひらがな に統一する。
 // 日本人: "うえだ・たいが" → "うえだ たいが"
-// 外国人: "アラン・ワイナンス　(ALLAN WINANS)" → "アラン ワイナンス"
+// 外国人: "アラン・ワイナンス　(ALLAN WINANS)" → "あらん わいなんす"
 export function cleanKana(raw) {
   if (!raw) return "";
   return raw
     .replace(/[（(].*$/s, "") // 括弧以降の英字表記を除去
     .replace(/・/g, " ")
     .replace(/\s+/g, " ")
+    // 外国人選手などのカタカナ読みを ひらがな に統一(長音「ー」等は保持)
+    .replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60))
     .trim();
 }
 
