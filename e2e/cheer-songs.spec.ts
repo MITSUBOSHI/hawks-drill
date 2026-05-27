@@ -19,7 +19,7 @@ test.describe("応援歌", () => {
 
     // 野手個人タブ
     await page.getByRole("tab", { name: "野手個人" }).click();
-    await expect(page.getByText("牧 秀悟")).toBeVisible();
+    await expect(page.getByText("近藤 健介")).toBeVisible();
 
     // その他共通タブ
     await page.getByRole("tab", { name: "その他共通" }).click();
@@ -36,8 +36,8 @@ test.describe("応援歌", () => {
     // 野手個人タブへ
     await page.getByRole("tab", { name: "野手個人" }).click();
 
-    // 牧のカードをクリック
-    await page.getByText("牧 秀悟").click();
+    // 近藤のカードをクリック
+    await page.getByText("近藤 健介").click();
 
     // 歌詞が表示される
     await expect(page.getByText("オオオオーオオ　マキシュウゴ！")).toBeVisible();

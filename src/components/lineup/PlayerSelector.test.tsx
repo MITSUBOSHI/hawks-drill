@@ -13,27 +13,27 @@ import PlayerSelector from "./PlayerSelector";
 // Mock data
 const mockPlayers: PlayerType[] = [
   {
-    name: "佐野 恵太",
-    name_kana: "さの けいた",
-    uniform_name: "SANO",
+    name: "柳田 悠岐",
+    name_kana: "やなぎた ゆうき",
+    uniform_name: "YANAGITA",
     number_disp: "7",
     number_calc: 7,
     role: Role.Roster,
     year: 2026,
-    url: "https://dummy/sano",
+    url: "https://dummy/yanagita",
     date_of_birth: "1994-11-28",
     height_cm: 178,
     weight_kg: 88,
   },
   {
-    name: "牧 秀悟",
-    name_kana: "まき しゅうご",
-    uniform_name: "MAKI",
+    name: "近藤 健介",
+    name_kana: "こんどう けんすけ",
+    uniform_name: "KONDOH",
     number_disp: "2",
     number_calc: 2,
     role: Role.Roster,
     year: 2026,
-    url: "https://dummy/maki",
+    url: "https://dummy/kondoh",
     date_of_birth: "1998-04-21",
     height_cm: 178,
     weight_kg: 97,
@@ -70,8 +70,8 @@ describe("PlayerSelector", () => {
 
     // ドロップダウンメニューが表示されていることを確認
     expect(screen.getByLabelText("選手を検索")).toBeInTheDocument();
-    expect(screen.getByText("佐野 恵太")).toBeInTheDocument();
-    expect(screen.getByText("牧 秀悟")).toBeInTheDocument();
+    expect(screen.getByText("柳田 悠岐")).toBeInTheDocument();
+    expect(screen.getByText("近藤 健介")).toBeInTheDocument();
   });
 
   test("ドロップダウンを開くと検索フィールドに自動でフォーカスが当たる", () => {
@@ -96,14 +96,14 @@ describe("PlayerSelector", () => {
     render(<PlayerSelector {...defaultProps} />);
     fireEvent.click(screen.getByRole("button", { name: "投手の選手を選択" }));
 
-    // 検索フィールドに「佐野」と入力
+    // 検索フィールドに「柳田」と入力
     fireEvent.change(screen.getByLabelText("選手を検索"), {
-      target: { value: "佐野" },
+      target: { value: "柳田" },
     });
 
-    // 佐野のみが表示されていることを確認
-    expect(screen.getByText("佐野 恵太")).toBeInTheDocument();
-    expect(screen.queryByText("牧 秀悟")).not.toBeInTheDocument();
+    // 柳田のみが表示されていることを確認
+    expect(screen.getByText("柳田 悠岐")).toBeInTheDocument();
+    expect(screen.queryByText("近藤 健介")).not.toBeInTheDocument();
   });
 
   test("選手を選択すると、onSelectPlayerが呼び出される", () => {
@@ -111,7 +111,7 @@ describe("PlayerSelector", () => {
     fireEvent.click(screen.getByRole("button", { name: "投手の選手を選択" }));
 
     // 選手を選択
-    fireEvent.click(screen.getByText("佐野 恵太"));
+    fireEvent.click(screen.getByText("柳田 悠岐"));
 
     // コールバックが呼ばれたことを確認
     expect(defaultProps.onSelectPlayer).toHaveBeenCalledWith(mockPlayers[0]);
@@ -123,7 +123,7 @@ describe("PlayerSelector", () => {
     );
 
     // 選手情報が表示されていることを確認
-    expect(screen.getByText("佐野 恵太")).toBeInTheDocument();
+    expect(screen.getByText("柳田 悠岐")).toBeInTheDocument();
     expect(screen.getByText("7")).toBeInTheDocument();
 
     // クリアボタンをクリック

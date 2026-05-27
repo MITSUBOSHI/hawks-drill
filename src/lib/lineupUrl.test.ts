@@ -21,17 +21,17 @@ const player = (
 });
 
 const allPlayers: PlayerType[] = [
-  player("11", "東 克樹"),
-  player("2", "牧 秀悟"),
+  player("11", "有原 航平"),
+  player("2", "近藤 健介"),
   player("50", "山本 祐大"),
-  player("51", "宮﨑 敏郎"),
-  player("7", "佐野 恵太"),
-  player("3", "オースティン"),
-  player("44", "度会 隆輝"),
-  player("9", "桑原 将志"),
-  player("00", "松尾 汐恩", 0),
+  player("51", "栗原 陵矣"),
+  player("7", "柳田 悠岐"),
+  player("3", "ウォーカー"),
+  player("44", "周東 佑京"),
+  player("9", "今宮 健太"),
+  player("00", "海野 隆司", 0),
   player("122", "育成選手", 122),
-  player("29", "ジャクソン"),
+  player("29", "オスナ"),
 ];
 
 describe("lineupUrl", () => {

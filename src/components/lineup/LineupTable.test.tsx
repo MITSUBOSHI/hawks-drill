@@ -11,14 +11,14 @@ if (typeof structuredClone === "undefined") {
 }
 
 const mockPlayer: PlayerType = {
-  name: "佐野 恵太",
-  name_kana: "さの けいた",
-  uniform_name: "SANO",
+  name: "柳田 悠岐",
+  name_kana: "やなぎた ゆうき",
+  uniform_name: "YANAGITA",
   number_disp: "7",
   number_calc: 7,
   role: Role.Roster,
   year: 2026,
-  url: "https://dummy/sano",
+  url: "https://dummy/yanagita",
   date_of_birth: "1994-11-28",
   height_cm: 178,
   weight_kg: 88,
@@ -55,7 +55,7 @@ describe("LineupTable", () => {
     // 選手情報が表示されることを確認（1番打者の情報）
     const orderCells = screen.getAllByText(/1/);
     expect(orderCells.some((cell) => cell.textContent === "1")).toBeTruthy();
-    expect(screen.getByText("佐野 恵太")).toBeInTheDocument();
+    expect(screen.getByText("柳田 悠岐")).toBeInTheDocument();
     expect(screen.getByText("7")).toBeInTheDocument();
     expect(screen.getByText("左")).toBeInTheDocument();
   });
@@ -85,7 +85,7 @@ describe("LineupTable", () => {
     expect(screen.getByText("先発投手:")).toBeInTheDocument();
 
     // 先発投手の名前が表示されていることを確認
-    expect(screen.getByText("佐野 恵太")).toBeInTheDocument();
+    expect(screen.getByText("柳田 悠岐")).toBeInTheDocument();
   });
 
   test("打順が設定されていない場合のメッセージが表示される", () => {
