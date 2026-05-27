@@ -55,13 +55,14 @@ export default function NumberCounter({ players }: Props) {
     const result: Step[] = [];
 
     if (includeZero) {
-      result.push({
-        displayNumber: "0",
-        player: playerByDisp.get("0") ?? null,
-      });
+      // "00" → "0" の順に統一（ユニフォームビューと揃える）
       result.push({
         displayNumber: "00",
         player: playerByDisp.get("00") ?? null,
+      });
+      result.push({
+        displayNumber: "0",
+        player: playerByDisp.get("0") ?? null,
       });
     }
 

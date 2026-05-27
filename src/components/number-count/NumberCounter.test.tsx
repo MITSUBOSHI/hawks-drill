@@ -112,9 +112,9 @@ afterEach(() => {
 const mockPlayers: PlayerType[] = [
   {
     year: 2026,
-    name: "牧 秀悟",
-    name_kana: "まき しゅうご",
-    uniform_name: "MAKI",
+    name: "近藤 健介",
+    name_kana: "こんどう けんすけ",
+    uniform_name: "KONDOH",
     number_calc: 2,
     number_disp: "2",
     role: Role.Roster,
@@ -125,9 +125,9 @@ const mockPlayers: PlayerType[] = [
   },
   {
     year: 2026,
-    name: "東 克樹",
-    name_kana: "あずま かつき",
-    uniform_name: "AZUMA",
+    name: "有原 航平",
+    name_kana: "ありはら こうへい",
+    uniform_name: "ARIHARA",
     number_calc: 11,
     number_disp: "11",
     role: Role.Roster,
@@ -138,9 +138,9 @@ const mockPlayers: PlayerType[] = [
   },
   {
     year: 2026,
-    name: "三浦 大輔",
-    name_kana: "みうら だいすけ",
-    uniform_name: "MIURA",
+    name: "小久保 裕紀",
+    name_kana: "こくぼ ひろき",
+    uniform_name: "KOKUBO",
     number_calc: 81,
     number_disp: "81",
     role: Role.Coach,
@@ -168,9 +168,9 @@ const mockPlayersWithZero: PlayerType[] = [
   ...mockPlayers,
   {
     year: 2026,
-    name: "J.デュプランティエ",
-    name_kana: "じょん・でゅぷらんてぃえ",
-    uniform_name: "DUPLANTIER",
+    name: "L.モイネロ",
+    name_kana: "りばん もいねろ",
+    uniform_name: "MOINELO",
     number_calc: 0,
     number_disp: "0",
     role: Role.Roster,
@@ -181,9 +181,9 @@ const mockPlayersWithZero: PlayerType[] = [
   },
   {
     year: 2026,
-    name: "林 琢真",
-    name_kana: "はやし たくま",
-    uniform_name: "HAYASHI",
+    name: "川瀬 晃",
+    name_kana: "かわせ あきら",
+    uniform_name: "KAWASE",
     number_calc: 0,
     number_disp: "00",
     role: Role.Roster,
@@ -219,7 +219,7 @@ describe("NumberCounter", () => {
 
   it("歯抜け番号はフォールバック名と表示、選手番号では選手名を表示", () => {
     render(<NumberCounter players={mockPlayers} />);
-    // 再生して番号2に進む（牧選手）
+    // 再生して番号2に進む（近藤選手）
     const playButton = screen.getByLabelText("再生");
     act(() => {
       fireEvent.click(playButton);
@@ -232,8 +232,8 @@ describe("NumberCounter", () => {
     act(() => {
       jest.advanceTimersByTime(150);
     });
-    expect(screen.getByText("牧 秀悟")).toBeInTheDocument();
-    expect(screen.getByTestId("uniform-back")).toHaveTextContent("MAKI #2");
+    expect(screen.getByText("近藤 健介")).toBeInTheDocument();
+    expect(screen.getByTestId("uniform-back")).toHaveTextContent("KONDOH #2");
   });
 
   it("再生ボタンでカウント開始、音声ONなら音声が呼ばれる", () => {
@@ -340,7 +340,7 @@ describe("NumberCounter", () => {
     expect(screen.getByText("1 / 10")).toBeInTheDocument();
   });
 
-  it("「0を含める」ONで背番号0から開始し、0→00の順に表示される", () => {
+  it("「0を含める」ONで背番号00から開始し、00→0の順に表示される", () => {
     render(<NumberCounter players={mockPlayersWithZero} />);
     // デフォルトは番号1から
     expect(screen.getByTestId("uniform-back")).toHaveTextContent(
@@ -354,14 +354,12 @@ describe("NumberCounter", () => {
       fireEvent.click(onButtons[0]);
     });
 
-    // 背番号0（デュプランティエ）から開始
-    expect(screen.getByText("J.デュプランティエ")).toBeInTheDocument();
-    expect(screen.getByTestId("uniform-back")).toHaveTextContent(
-      "DUPLANTIER #0",
-    );
-    expect(screen.getByText("0 / 30")).toBeInTheDocument();
+    // 背番号00（川瀬）から開始
+    expect(screen.getByText("川瀬 晃")).toBeInTheDocument();
+    expect(screen.getByTestId("uniform-back")).toHaveTextContent("KAWASE #00");
+    expect(screen.getByText("00 / 30")).toBeInTheDocument();
 
-    // 再生して1ステップ進む → 背番号00（林）
+    // 再生して1ステップ進む → 背番号0（モイネロ）
     act(() => {
       fireEvent.click(screen.getByLabelText("再生"));
     });
@@ -371,11 +369,11 @@ describe("NumberCounter", () => {
     act(() => {
       jest.advanceTimersByTime(150);
     });
-    expect(screen.getByText("林 琢真")).toBeInTheDocument();
-    expect(screen.getByTestId("uniform-back")).toHaveTextContent("HAYASHI #00");
+    expect(screen.getByText("L.モイネロ")).toBeInTheDocument();
+    expect(screen.getByTestId("uniform-back")).toHaveTextContent("MOINELO #0");
   });
 
-  it("「0を含める」ONでカウントダウン時に00→0まで到達する", () => {
+  it("「0を含める」ONでカウントダウン時に最終ステップが00になる", () => {
     render(<NumberCounter players={mockPlayersWithZero} />);
     openSettings();
     // 「0を含める」ON
@@ -387,7 +385,7 @@ describe("NumberCounter", () => {
     act(() => {
       fireEvent.click(screen.getByText("カウントダウン"));
     });
-    // countLimit(30) から開始、0まで（最終ステップは "0"）
-    expect(screen.getByText("30 / 0")).toBeInTheDocument();
+    // countLimit(30) から開始、最終ステップは "00"（…→1→0→00）
+    expect(screen.getByText("30 / 00")).toBeInTheDocument();
   });
 });
