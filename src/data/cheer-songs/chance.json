@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "id": "chance-theme-1-2026",
+    "title": "チャンステーマ1",
+    "category": "chance",
+    "year": 2026,
+    "lyrics": [],
+    "namePlaceholder": "{{name}}",
+    "isCommon": true
+  },
+  {
+    "id": "chance-theme-2-2026",
+    "title": "チャンステーマ2",
+    "category": "chance",
+    "year": 2026,
+    "lyrics": [],
+    "namePlaceholder": "{{name}}",
+    "isCommon": true
+  },
+  {
+    "id": "chance-theme-3-2026",
+    "title": "チャンステーマ3",
+    "category": "chance",
+    "year": 2026,
+    "lyrics": [],
+    "namePlaceholder": "{{name}}",
+    "isCommon": true
+  }
+]

@@ -1,1 +1,189 @@
-[]
+[
+  {
+    "id": "individual_batter-嶺井-博希-12-2026",
+    "title": "嶺井 博希",
+    "category": "individual_batter",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "嶺井 博希",
+    "playerNameKana": "みねい ひろき",
+    "playerNumber": "12",
+    "isCommon": false
+  },
+  {
+    "id": "individual_batter-谷川原-健太-45-2026",
+    "title": "谷川原 健太",
+    "category": "individual_batter",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "谷川原 健太",
+    "playerNameKana": "たにがわら けんた",
+    "playerNumber": "45",
+    "isCommon": false
+  },
+  {
+    "id": "individual_batter-海野-隆司-62-2026",
+    "title": "海野 隆司",
+    "category": "individual_batter",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "海野 隆司",
+    "playerNameKana": "うみの たかし",
+    "playerNumber": "62",
+    "isCommon": false
+  },
+  {
+    "id": "individual_batter-川瀬-晃-0-2026",
+    "title": "川瀬 晃",
+    "category": "individual_batter",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "川瀬 晃",
+    "playerNameKana": "かわせ ひかる",
+    "playerNumber": "0",
+    "isCommon": false
+  },
+  {
+    "id": "individual_batter-ジーター-ダウンズ-4-2026",
+    "title": "ジーター・ダウンズ",
+    "category": "individual_batter",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "ジーター・ダウンズ",
+    "playerNameKana": "じーたー だうんず",
+    "playerNumber": "4",
+    "isCommon": false
+  },
+  {
+    "id": "individual_batter-山川-穂高-5-2026",
+    "title": "山川 穂高",
+    "category": "individual_batter",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "山川 穂高",
+    "playerNameKana": "やまかわ ほたか",
+    "playerNumber": "5",
+    "isCommon": false
+  },
+  {
+    "id": "individual_batter-今宮-健太-6-2026",
+    "title": "今宮 健太",
+    "category": "individual_batter",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "今宮 健太",
+    "playerNameKana": "いまみや けんた",
+    "playerNumber": "6",
+    "isCommon": false
+  },
+  {
+    "id": "individual_batter-中村-晃-7-2026",
+    "title": "中村 晃",
+    "category": "individual_batter",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "中村 晃",
+    "playerNameKana": "なかむら あきら",
+    "playerNumber": "7",
+    "isCommon": false
+  },
+  {
+    "id": "individual_batter-牧原-大成-8-2026",
+    "title": "牧原 大成",
+    "category": "individual_batter",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "牧原 大成",
+    "playerNameKana": "まきはら たいせい",
+    "playerNumber": "8",
+    "isCommon": false
+  },
+  {
+    "id": "individual_batter-栗原-陵矢-24-2026",
+    "title": "栗原 陵矢",
+    "category": "individual_batter",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "栗原 陵矢",
+    "playerNameKana": "くりはら りょうや",
+    "playerNumber": "24",
+    "isCommon": false
+  },
+  {
+    "id": "individual_batter-野村-勇-99-2026",
+    "title": "野村 勇",
+    "category": "individual_batter",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "野村 勇",
+    "playerNameKana": "のむら いさみ",
+    "playerNumber": "99",
+    "isCommon": false
+  },
+  {
+    "id": "individual_batter-近藤-健介-3-2026",
+    "title": "近藤 健介",
+    "category": "individual_batter",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "近藤 健介",
+    "playerNameKana": "こんどう けんすけ",
+    "playerNumber": "3",
+    "isCommon": false
+  },
+  {
+    "id": "individual_batter-柳田-悠岐-9-2026",
+    "title": "柳田 悠岐",
+    "category": "individual_batter",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "柳田 悠岐",
+    "playerNameKana": "やなぎた ゆうき",
+    "playerNumber": "9",
+    "isCommon": false
+  },
+  {
+    "id": "individual_batter-周東-佑京-23-2026",
+    "title": "周東 佑京",
+    "category": "individual_batter",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "周東 佑京",
+    "playerNameKana": "しゅうとう うきょう",
+    "playerNumber": "23",
+    "isCommon": false
+  },
+  {
+    "id": "individual_batter-正木-智也-31-2026",
+    "title": "正木 智也",
+    "category": "individual_batter",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "正木 智也",
+    "playerNameKana": "まさき ともや",
+    "playerNumber": "31",
+    "isCommon": false
+  },
+  {
+    "id": "individual_batter-柳町-達-32-2026",
+    "title": "柳町 達",
+    "category": "individual_batter",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "柳町 達",
+    "playerNameKana": "やなぎまち たつる",
+    "playerNumber": "32",
+    "isCommon": false
+  },
+  {
+    "id": "individual_batter-緒方-理貢-57-2026",
+    "title": "緒方 理貢",
+    "category": "individual_batter",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "緒方 理貢",
+    "playerNameKana": "おがた りく",
+    "playerNumber": "57",
+    "isCommon": false
+  }
+]

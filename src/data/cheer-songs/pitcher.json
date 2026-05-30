@@ -1,1 +1,152 @@
-[]
+[
+  {
+    "id": "right_pitcher-2026",
+    "title": "右投手共通応援歌",
+    "category": "right_pitcher",
+    "year": 2026,
+    "lyrics": [],
+    "namePlaceholder": "{{name}}",
+    "isCommon": true
+  },
+  {
+    "id": "left_pitcher-2026",
+    "title": "左投手共通応援歌",
+    "category": "left_pitcher",
+    "year": 2026,
+    "lyrics": [],
+    "namePlaceholder": "{{name}}",
+    "isCommon": true
+  },
+  {
+    "id": "individual_pitcher-上沢-直之-10-2026",
+    "title": "上沢 直之",
+    "category": "individual_pitcher",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "上沢 直之",
+    "playerNameKana": "うわさわ なおゆき",
+    "playerNumber": "10",
+    "isCommon": false
+  },
+  {
+    "id": "individual_pitcher-津森-宥紀-11-2026",
+    "title": "津森 宥紀",
+    "category": "individual_pitcher",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "津森 宥紀",
+    "playerNameKana": "つもり ゆうき",
+    "playerNumber": "11",
+    "isCommon": false
+  },
+  {
+    "id": "individual_pitcher-東浜-巨-16-2026",
+    "title": "東浜 巨",
+    "category": "individual_pitcher",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "東浜 巨",
+    "playerNameKana": "ひがしはま なお",
+    "playerNumber": "16",
+    "isCommon": false
+  },
+  {
+    "id": "individual_pitcher-大津-亮介-19-2026",
+    "title": "大津 亮介",
+    "category": "individual_pitcher",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "大津 亮介",
+    "playerNameKana": "おおつ りょうすけ",
+    "playerNumber": "19",
+    "isCommon": false
+  },
+  {
+    "id": "individual_pitcher-尾形-崇斗-39-2026",
+    "title": "尾形 崇斗",
+    "category": "individual_pitcher",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "尾形 崇斗",
+    "playerNameKana": "おがた しゅうと",
+    "playerNumber": "39",
+    "isCommon": false
+  },
+  {
+    "id": "individual_pitcher-杉山-一樹-40-2026",
+    "title": "杉山 一樹",
+    "category": "individual_pitcher",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "杉山 一樹",
+    "playerNameKana": "すぎやま かずき",
+    "playerNumber": "40",
+    "isCommon": false
+  },
+  {
+    "id": "individual_pitcher-大関-友久-47-2026",
+    "title": "大関 友久",
+    "category": "individual_pitcher",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "大関 友久",
+    "playerNameKana": "おおぜき ともひさ",
+    "playerNumber": "47",
+    "isCommon": false
+  },
+  {
+    "id": "individual_pitcher-藤井-皓哉-48-2026",
+    "title": "藤井 皓哉",
+    "category": "individual_pitcher",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "藤井 皓哉",
+    "playerNameKana": "ふじい こうや",
+    "playerNumber": "48",
+    "isCommon": false
+  },
+  {
+    "id": "individual_pitcher-松本-晴-49-2026",
+    "title": "松本 晴",
+    "category": "individual_pitcher",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "松本 晴",
+    "playerNameKana": "まつもと はる",
+    "playerNumber": "49",
+    "isCommon": false
+  },
+  {
+    "id": "individual_pitcher-大山-凌-53-2026",
+    "title": "大山 凌",
+    "category": "individual_pitcher",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "大山 凌",
+    "playerNameKana": "おおやま りょう",
+    "playerNumber": "53",
+    "isCommon": false
+  },
+  {
+    "id": "individual_pitcher-松本-裕樹-66-2026",
+    "title": "松本 裕樹",
+    "category": "individual_pitcher",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "松本 裕樹",
+    "playerNameKana": "まつもと ゆうき",
+    "playerNumber": "66",
+    "isCommon": false
+  },
+  {
+    "id": "individual_pitcher-長谷川-威展-120-2026",
+    "title": "長谷川 威展",
+    "category": "individual_pitcher",
+    "year": 2026,
+    "lyrics": [],
+    "playerName": "長谷川 威展",
+    "playerNameKana": "はせがわ たけひろ",
+    "playerNumber": "120",
+    "isCommon": false
+  }
+]

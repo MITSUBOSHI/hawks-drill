@@ -16,7 +16,7 @@ type CategoryTab =
   | "anthem";
 
 const tabs: { key: CategoryTab; label: string }[] = [
-  { key: "pitcher", label: "投手共通" },
+  { key: "pitcher", label: "投手" },
   { key: "individual", label: "野手個人" },
   { key: "other", label: "その他共通" },
   { key: "manager", label: "監督" },
@@ -28,6 +28,7 @@ const categoryToTab: Record<string, CategoryTab> = {
   right_pitcher: "pitcher",
   left_pitcher: "pitcher",
   foreign_pitcher: "pitcher",
+  individual_pitcher: "pitcher",
   individual_batter: "individual",
   pinch_hitter: "other",
   catcher: "other",
@@ -42,9 +43,12 @@ function filterByTab(songs: CheerSongType[], tab: CategoryTab) {
   switch (tab) {
     case "pitcher":
       return songs.filter((s) =>
-        ["right_pitcher", "left_pitcher", "foreign_pitcher"].includes(
-          s.category,
-        ),
+        [
+          "right_pitcher",
+          "left_pitcher",
+          "foreign_pitcher",
+          "individual_pitcher",
+        ].includes(s.category),
       );
     case "individual":
       return songs.filter((s) => s.category === "individual_batter");

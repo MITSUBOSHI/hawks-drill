@@ -35,7 +35,9 @@
     "計算ドリル",
     "スタメン",
     "選手名鑑",
+    "応援歌",
     "ユニフォーム",
+    "歌詞",
     "ふりがな"
   ],
   "disclaimer": "本サイトは個人が運営するファンサイトであり、福岡ソフトバンクホークス株式会社とは一切関係ありません。",
@@ -99,7 +101,7 @@
     "draftUrlTemplate": "https://draft.npb.jp/draft/{year}/draftlist_h.html"
   },
   "features": {
-    "cheerSongs": false
+    "cheerSongs": true
   },
   "analytics": {
     "gaId": "G-LLZE9J8NHC",

@@ -72,7 +72,7 @@ describe("CheerSongViewer", () => {
     (useSearchParams as jest.Mock).mockReturnValue(new URLSearchParams(""));
   });
 
-  it("デフォルトで投手共通タブが選択される", () => {
+  it("デフォルトで投手タブが選択される", () => {
     render(<CheerSongViewer songs={mockSongs} year={2026} />);
     expect(screen.getByText("右投手の歌")).toBeInTheDocument();
     expect(screen.queryByText("近藤 健介")).not.toBeInTheDocument();
@@ -92,7 +92,7 @@ describe("CheerSongViewer", () => {
   it("タブに role=tab と aria-selected が設定される", () => {
     render(<CheerSongViewer songs={mockSongs} year={2026} />);
 
-    const pitcherTab = screen.getByRole("tab", { name: "投手共通" });
+    const pitcherTab = screen.getByRole("tab", { name: "投手" });
     expect(pitcherTab).toHaveAttribute("aria-selected", "true");
 
     const batterTab = screen.getByRole("tab", { name: "野手個人" });

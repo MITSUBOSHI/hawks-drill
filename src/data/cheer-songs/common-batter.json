@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "right_batter-2026",
+    "title": "右打席野手共通応援歌",
+    "category": "right_batter",
+    "year": 2026,
+    "lyrics": [],
+    "namePlaceholder": "{{name}}",
+    "isCommon": true
+  },
+  {
+    "id": "left_batter-2026",
+    "title": "左打席野手共通応援歌",
+    "category": "left_batter",
+    "year": 2026,
+    "lyrics": [],
+    "namePlaceholder": "{{name}}",
+    "isCommon": true
+  }
+]
