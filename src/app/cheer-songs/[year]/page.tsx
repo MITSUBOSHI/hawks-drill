@@ -6,7 +6,6 @@ import YearSelector from "@/components/common/YearSelector";
 import CheerSongViewer from "@/components/cheer-songs/CheerSongViewer";
 import PageTitle from "@/components/common/PageTitle";
 import { cheerSongsByYear, cheerSongYears } from "@/lib/cheerSongs";
-import { playersByYear } from "@/lib/players";
 import { describe, TEAM } from "@/config/team";
 
 export async function generateMetadata({
@@ -36,18 +35,8 @@ export default async function Page({
   }
   const { year } = await params;
   const currentYear = Number(year) as Year;
-  const players = playersByYear(currentYear);
-  const songs = cheerSongsByYear(currentYear).map((song) => {
-    // 既に playerNameKana が設定済みの場合は名簿による上書きをしない
-    // (応援歌曲データの作成時点の選手と、その後の背番号変更/移籍に伴う名簿変動の齟齬を回避)
-    if (song.playerNumber && !song.playerNameKana) {
-      const player = players.find((p) => p.number_disp === song.playerNumber);
-      if (player) {
-        return { ...song, playerNameKana: player.name_kana };
-      }
-    }
-    return song;
-  });
+  // その年に在籍する選手の応援歌のみが返る（背番号もその年の値に揃う）
+  const songs = cheerSongsByYear(currentYear);
 
   return (
     <div className="flex flex-col items-center w-full gap-6 py-4">
