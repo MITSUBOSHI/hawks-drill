@@ -99,6 +99,25 @@ describe("CheerSongViewer", () => {
     expect(batterTab).toHaveAttribute("aria-selected", "false");
   });
 
+  it("曲が無いカテゴリのタブは表示されない", () => {
+    render(<CheerSongViewer songs={mockSongs} year={2026} />);
+
+    // mockSongs には right_pitcher / individual_batter / manager のみ存在
+    expect(screen.getByRole("tab", { name: "投手" })).toBeInTheDocument();
+    expect(screen.getByRole("tab", { name: "野手個人" })).toBeInTheDocument();
+    expect(screen.getByRole("tab", { name: "監督" })).toBeInTheDocument();
+    // 曲が無いカテゴリのタブは描画されない
+    expect(
+      screen.queryByRole("tab", { name: "その他共通" }),
+    ).not.toBeInTheDocument();
+    expect(
+      screen.queryByRole("tab", { name: "チャンステーマ" }),
+    ).not.toBeInTheDocument();
+    expect(
+      screen.queryByRole("tab", { name: "球団歌" }),
+    ).not.toBeInTheDocument();
+  });
+
   it("?number パラメータで該当タブに自動切替される", () => {
     (useSearchParams as jest.Mock).mockReturnValue(
       new URLSearchParams("number=2"),

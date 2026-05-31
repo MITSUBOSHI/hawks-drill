@@ -86,9 +86,18 @@ export default function CheerSongViewer({ songs, year }: CheerSongViewerProps) {
       )
     : null;
 
-  const initialTab = targetSong
+  // 曲が1件以上あるタブのみ表示する（例: 監督応援歌が無い年/チームではタブを出さない）
+  const availableTabs = useMemo(
+    () => tabs.filter((tab) => filterByTab(songs, tab.key).length > 0),
+    [songs],
+  );
+
+  const preferredTab = targetSong
     ? (categoryToTab[targetSong.category] ?? "pitcher")
     : "pitcher";
+  const initialTab = availableTabs.some((t) => t.key === preferredTab)
+    ? preferredTab
+    : (availableTabs[0]?.key ?? "pitcher");
 
   const [activeTab, setActiveTab] = useState<CategoryTab>(initialTab);
   const [searchQuery, setSearchQuery] = useState("");
@@ -175,7 +184,7 @@ export default function CheerSongViewer({ songs, year }: CheerSongViewerProps) {
               role="tablist"
               aria-label="応援歌カテゴリ"
             >
-              {tabs.map((tab) => (
+              {availableTabs.map((tab) => (
                 <button
                   key={tab.key}
                   role="tab"
