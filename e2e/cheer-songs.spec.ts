@@ -31,11 +31,11 @@ test.describe("応援歌", () => {
 
     // チャンステーマタブ
     await page.getByRole("tab", { name: "チャンステーマ" }).click();
-    await expect(page.getByText("チャンステーマ1")).toBeVisible();
+    await expect(page.getByText("わっしょい")).toBeVisible();
 
     // 球団歌タブ
     await page.getByRole("tab", { name: "球団歌" }).click();
-    await expect(page.getByText("勝利目指して")).toBeVisible();
+    await expect(page.getByText("いざゆけ若鷹軍団")).toBeVisible();
   });
 
   test("応援歌カードが選手情報を表示する", async ({ page }) => {

@@ -4,7 +4,7 @@
     "title": "右投手共通応援歌",
     "category": "right_pitcher",
     "year": 2026,
-    "lyrics": [],
+    "lyrics": ["恐れるな", "立ち向かえ", "気持ち見せろ", "仲間を信じて", "全て賭け闘え"],
     "namePlaceholder": "{{name}}",
     "isCommon": true
   },
@@ -13,7 +13,16 @@
     "title": "左投手共通応援歌",
     "category": "left_pitcher",
     "year": 2026,
-    "lyrics": [],
+    "lyrics": ["抑えるチャンス", "物にするぞ", "この腕で", "必ず掴むぞ"],
+    "namePlaceholder": "{{name}}",
+    "isCommon": true
+  },
+  {
+    "id": "foreign_pitcher-2026",
+    "title": "外国人投手共通応援歌",
+    "category": "foreign_pitcher",
+    "year": 2026,
+    "lyrics": ["勝利を呼ぶ球を", "投げてくれ", "歴史刻め○○", "いつまでも"],
     "namePlaceholder": "{{name}}",
     "isCommon": true
   },
