@@ -8,7 +8,8 @@
       "わっしょいわっしょい○○! わっしょいわっしょい○○!",
       "行け! 打て! ○○熱くなれ!"
     ],
-    "isCommon": true
+    "isCommon": true,
+    "url": "https://www.youtube.com/watch?v=JmgdzxvMTJc"
   },
   {
     "id": "chance-wakai-dance-2026",
@@ -20,7 +21,8 @@
       "かっとばせー! ○○! チャンスに強いガッツマン我らの○○",
       "かっとばせー! ○○!"
     ],
-    "isCommon": true
+    "isCommon": true,
+    "url": "https://www.youtube.com/watch?v=YPt-89xhWXI"
   },
   {
     "id": "chance-takanotsume-2026",
@@ -32,15 +34,19 @@
       "勝利に向かって突き進め 打ちまくれ打ちまくれお前の力を見せてくれ それ行け○○",
       "[男声]ここで決めろ [女声]ここで決めろ○○!"
     ],
-    "isCommon": true
+    "isCommon": true,
+    "url": "https://www.youtube.com/watch?v=Fs_ScQDpFsc"
   },
   {
     "id": "chance-takanomichi-2026",
     "title": "鷹の道",
     "category": "chance",
     "year": 2026,
-    "lyrics": ["行けよ男たち チャンスだ燃え上がれ 俊足巧打で突き進め それが鷹の道"],
-    "isCommon": true
+    "lyrics": [
+      "行けよ男たち チャンスだ燃え上がれ 俊足巧打で突き進め それが鷹の道"
+    ],
+    "isCommon": true,
+    "url": "https://www.youtube.com/watch?v=VtkERiok1OU"
   },
   {
     "id": "chance-akko-chan-2026",
@@ -52,23 +58,30 @@
       "さあ行こう 俺らならやれるさ 熱くなれ 男なら行こうぜ",
       "○○ 今こそ 戦え オーオーオー… ○○ 今こそ 戦え"
     ],
-    "isCommon": true
+    "isCommon": true,
+    "url": "https://www.youtube.com/watch?v=qdZwIlUVbpU"
   },
   {
     "id": "chance-osaka-tsundere-2026",
     "title": "オオサカツンデレラ",
     "category": "chance",
     "year": 2026,
-    "lyrics": ["ラララララララララ… ○○ ○○ ○○ ○○ラララー"],
-    "isCommon": true
+    "lyrics": [
+      "ラララララララララ… ○○ ○○ ○○ ○○ラララー"
+    ],
+    "isCommon": true,
+    "url": "https://www.youtube.com/watch?v=ZOy-s0xZTjQ"
   },
   {
     "id": "chance-reiwa-2026",
     "title": "令和",
     "category": "chance",
     "year": 2026,
-    "lyrics": ["今宵勝利のために 俺ら叫び続ける 争覇期する時まで 此処にいる仲間と共に"],
-    "isCommon": true
+    "lyrics": [
+      "今宵勝利のために 俺ら叫び続ける 争覇期する時まで 此処にいる仲間と共に"
+    ],
+    "isCommon": true,
+    "url": "https://www.youtube.com/watch?v=Tg6MH-4jifs"
   },
   {
     "id": "chance-osu-chance-2026",
@@ -82,7 +95,8 @@
       "行け! 行け! 押せ! 押せ! Go Go Let's Go! Let's Go ○○!",
       "行ーけ! 押ーせ! おー よっしゃ行くぞー!"
     ],
-    "isCommon": true
+    "isCommon": true,
+    "url": "https://www.youtube.com/watch?v=NbCTd6R0IAM"
   },
   {
     "id": "chance-acchan-2026",
@@ -97,7 +111,8 @@
       "チャンス チャンス 今チャンス おー そーれ!",
       "決めろ! 決めろ! ○○決めろ! 燃えろ! 燃えろ! 熱く燃えろ○○!"
     ],
-    "isCommon": true
+    "isCommon": true,
+    "url": "https://www.youtube.com/watch?v=GZ3O3-7KXtc"
   },
   {
     "id": "chance-kanto-2026",
@@ -120,6 +135,7 @@
       "燃える闘志 今見せてやれ ○○一振りで決めてやれ",
       "勝利決まれば お前の夜だ○○! ○○! いまここでがんばれ!"
     ],
-    "isCommon": true
+    "isCommon": true,
+    "url": "https://www.youtube.com/watch?v=lJwXit67mkY"
   }
 ]

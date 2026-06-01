@@ -4,7 +4,12 @@
     "title": "右打席野手共通応援歌",
     "category": "right_batter",
     "year": 2026,
-    "lyrics": ["待ちわびたその場所で", "真の力を解け", "限界超えるその日まで", "夢の道繋げろ"],
+    "lyrics": [
+      "待ちわびたその場所で",
+      "真の力を解け",
+      "限界超えるその日まで",
+      "夢の道繋げろ"
+    ],
     "namePlaceholder": "{{name}}",
     "isCommon": true
   },
@@ -13,8 +18,14 @@
     "title": "左打席野手共通応援歌",
     "category": "left_batter",
     "year": 2026,
-    "lyrics": ["今舞台が出来たぞ", "お前が輝く", "最高の瞬間", "羽ばたけ"],
+    "lyrics": [
+      "今舞台が出来たぞ",
+      "お前が輝く",
+      "最高の瞬間",
+      "羽ばたけ"
+    ],
     "namePlaceholder": "{{name}}",
-    "isCommon": true
+    "isCommon": true,
+    "url": "https://www.youtube.com/watch?v=68b2nzKzsj4"
   }
 ]
