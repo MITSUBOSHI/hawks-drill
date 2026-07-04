@@ -2,11 +2,11 @@ import { extractFamilyNameKana } from "./nameUtils";
 
 describe("extractFamilyNameKana", () => {
   it("日本人選手: スペース区切りの先頭を返す", () => {
-    expect(extractFamilyNameKana("いまみや けんた")).toBe("いまみや");
+    expect(extractFamilyNameKana("くわはら まさゆき")).toBe("くわはら");
   });
 
   it("日本人選手: 別の例", () => {
-    expect(extractFamilyNameKana("こんどう けんすけ")).toBe("こんどう");
+    expect(extractFamilyNameKana("まき しゅうご")).toBe("まき");
   });
 
   it("外国人選手: 中黒区切りの末尾を返す", () => {

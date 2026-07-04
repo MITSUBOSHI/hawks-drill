@@ -1,8 +1,5 @@
 import { test, expect } from "@playwright/test";
 import players2026 from "../src/data/2026-players.jsonl.json";
-import { registeredYears } from "../src/constants/player";
-
-const minYear = Math.min(...registeredYears);
 
 const NUMBER_11 = (
   players2026 as { number_disp: string; name: string }[]
@@ -49,8 +46,8 @@ test.describe("選手名鑑", () => {
     await expect(page.getByRole("columnheader", { name: /背番号/ })).toHaveAttribute("aria-sort", "none");
   });
 
-  test("最古年度の選手名鑑も表示できる", async ({ page }) => {
-    await page.goto(`/player-directory/${minYear}`);
+  test("2020年の選手名鑑も表示できる", async ({ page }) => {
+    await page.goto("/player-directory/2020");
 
     await expect(page.getByRole("heading", { name: "選手名鑑" })).toBeVisible();
     // テーブルに行がある（空ではない）

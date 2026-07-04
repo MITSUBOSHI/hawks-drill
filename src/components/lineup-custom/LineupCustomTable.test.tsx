@@ -2,7 +2,6 @@ import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import LineupCustomTable from "./LineupCustomTable";
 import { createDefaultCustomLineup } from "@/lib/lineupCustomUrl";
-import { TEAM } from "@/config/team";
 
 describe("LineupCustomTable", () => {
   it("名前未入力の場合はラベル付き未入力メッセージを表示する", () => {
@@ -66,14 +65,14 @@ describe("LineupCustomTable", () => {
     expect(screen.getByText("打順設定完了 ⚾")).toBeInTheDocument();
   });
 
-  it("isForImage の場合は完了メッセージを出さず Hawks Drill 表記を出す", () => {
+  it("isForImage の場合は完了メッセージを出さず Baystars Drill 表記を出す", () => {
     const lineup = createDefaultCustomLineup().map((spot) => ({
       ...spot,
       name: `選手${spot.order}`,
     }));
     render(<LineupCustomTable lineup={lineup} isForImage />);
     expect(screen.queryByText("打順設定完了 ⚾")).not.toBeInTheDocument();
-    expect(screen.getByText(`${TEAM.name} で作成`)).toBeInTheDocument();
+    expect(screen.getByText("Baystars Drill で作成")).toBeInTheDocument();
   });
 
   it("一部のみ入力されている場合は残数メッセージを表示する", () => {

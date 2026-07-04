@@ -38,6 +38,14 @@ export function cheerSongsByYear(year: number): CheerSongType[] {
     );
     if (!player) return [];
     // 背番号は年によって異なるため、その年の名簿の背番号に合わせて表示する。
-    return [{ ...song, playerNumber: player.number_disp }];
+    // ふりがなが曲データに無い場合は名簿から補完する（タイトルのルビ表示用）。
+    return [
+      {
+        ...song,
+        playerNumber: player.number_disp,
+        // 空文字の場合も名簿から補完する
+        playerNameKana: song.playerNameKana || player.name_kana,
+      },
+    ];
   });
 }

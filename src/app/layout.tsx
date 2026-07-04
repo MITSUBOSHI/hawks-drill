@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
-import { Oswald } from "next/font/google";
+import { Oswald, Saira } from "next/font/google";
 import Provider from "./provider";
 import AppBreadcrumb from "@/components/common/Breadcrumb";
 import { TEAM } from "@/config/team";
@@ -13,13 +13,22 @@ const oswald = Oswald({
   variable: "--font-oswald",
 });
 
-const basePath = process.env.CAPACITOR === "true" ? "" : TEAM.basePath;
-// OGP/Twitter 画像は metadataBase(siteUrl, basePath を含む) を基準に解決されるため、
-// ここでは basePath を付けない（付けると basePath が二重になる）。
-const logoUrl = `/${TEAM.logo.png}`;
+// 0 がドット無しのブロック体（背番号向け、チームにより使用）
+const saira = Saira({
+  subsets: ["latin"],
+  weight: "600",
+  display: "swap",
+  variable: "--font-saira",
+});
 
+const basePath = process.env.CAPACITOR === "true" ? "" : TEAM.basePath;
+// metadataBase はオリジンのみにする。basePath は Next が自動付与するため、
+// siteUrl(basePath 込み)をそのまま渡すと OG 画像 URL で basePath が二重になる。
+const siteOrigin = new URL(TEAM.siteUrl).origin;
+
+// OG/Twitter 画像は app/opengraph-image.png のファイル規約に委譲する。
 export const metadata: Metadata = {
-  metadataBase: new URL(TEAM.siteUrl),
+  metadataBase: new URL(siteOrigin),
   title: {
     default: TEAM.name,
     template: `%s | ${TEAM.name}`,
@@ -33,20 +42,11 @@ export const metadata: Metadata = {
     locale: "ja_JP",
     title: TEAM.name,
     description: TEAM.siteDescription,
-    images: [
-      {
-        url: logoUrl,
-        width: 512,
-        height: 512,
-        alt: TEAM.logo.alt,
-      },
-    ],
   },
   twitter: {
     card: "summary",
     title: TEAM.name,
     description: TEAM.siteDescription,
-    images: [logoUrl],
   },
 };
 
@@ -56,7 +56,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ja" className={oswald.variable} suppressHydrationWarning>
+    <html
+      lang="ja"
+      className={`${oswald.variable} ${saira.variable}`}
+      suppressHydrationWarning
+    >
       <head>
         <meta
           name="google-site-verification"
@@ -96,9 +100,15 @@ export default function RootLayout({
             `,
           }}
         />
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:px-4 focus:py-2 focus:bg-[var(--interactive-primary)] focus:text-white focus:rounded-md"
+        >
+          本文へスキップ
+        </a>
         <Provider>
           <AppBreadcrumb />
-          {children}
+          <main id="main-content">{children}</main>
           <footer className="py-4 px-6 text-center flex flex-col items-center gap-1">
             <p className="text-xs text-[var(--text-secondary)]">
               {TEAM.disclaimer}
@@ -107,7 +117,7 @@ export default function RootLayout({
               href="https://buymeacoffee.com/MITSUBOSHI"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs text-[var(--text-secondary)] hover:underline"
+              className="text-xs text-[var(--text-secondary)] hover:underline inline-flex items-center min-h-11"
             >
               ☕ 開発者を応援する
             </a>

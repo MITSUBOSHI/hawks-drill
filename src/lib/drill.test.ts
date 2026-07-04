@@ -83,9 +83,9 @@ describe("generateQuestionWithOperators", () => {
 
   describe("表示", () => {
     it("選手名を漢字で表示する", () => {
-      const players = [makePlayer(3, "柳田"), makePlayer(5, "近藤")];
+      const players = [makePlayer(3, "佐野"), makePlayer(5, "牧")];
       const result = generateQuestionWithOperators(players, ["+"], ["+"]);
-      expect(result.questionSentence).toBe("柳田 ＋ 近藤");
+      expect(result.questionSentence).toBe("佐野 ＋ 牧");
     });
   });
 

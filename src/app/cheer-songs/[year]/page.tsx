@@ -35,7 +35,7 @@ export default async function Page({
   }
   const { year } = await params;
   const currentYear = Number(year) as Year;
-  // その年に在籍する選手の応援歌のみが返る（背番号もその年の値に揃う）
+  // その年に在籍する選手の応援歌のみが返る（背番号・ふりがなもその年の名簿に揃う）
   const songs = cheerSongsByYear(currentYear);
 
   return (

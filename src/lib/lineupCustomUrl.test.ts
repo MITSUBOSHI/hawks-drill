@@ -36,18 +36,18 @@ describe("lineupCustomUrl", () => {
 
     it("名前・メモ・タイトル・ラベルをエンコードする", () => {
       const lineup = createDefaultCustomLineup();
-      lineup[0].name = "柳田";
+      lineup[0].name = "佐野";
       lineup[0].memo = "主将";
-      lineup[2].name = "近藤";
+      lineup[2].name = "牧";
       const state: CustomLineupUrlState = {
         lineup,
         customTitle: "私的スタメン",
         itemLabel: "選手名",
       };
       const params = encodeCustomLineupParams(state);
-      expect(params.get("n1")).toBe("柳田");
+      expect(params.get("n1")).toBe("佐野");
       expect(params.get("m1")).toBe("主将");
-      expect(params.get("n3")).toBe("近藤");
+      expect(params.get("n3")).toBe("牧");
       expect(params.has("m3")).toBe(false);
       expect(params.get("title")).toBe("私的スタメン");
       expect(params.get("label")).toBe("選手名");
@@ -73,9 +73,9 @@ describe("lineupCustomUrl", () => {
 
     it("名前・メモ・タイトル・ラベルをデコードする", () => {
       const params = new URLSearchParams();
-      params.set("n1", "柳田");
+      params.set("n1", "佐野");
       params.set("m1", "主将");
-      params.set("n3", "近藤");
+      params.set("n3", "牧");
       params.set("title", "私的スタメン");
       params.set("label", "ニュース");
 
@@ -84,10 +84,10 @@ describe("lineupCustomUrl", () => {
       expect(decoded!.customTitle).toBe("私的スタメン");
       expect(decoded!.itemLabel).toBe("ニュース");
       expect(decoded!.lineup).toHaveLength(CUSTOM_LINEUP_SIZE);
-      expect(decoded!.lineup[0].name).toBe("柳田");
+      expect(decoded!.lineup[0].name).toBe("佐野");
       expect(decoded!.lineup[0].memo).toBe("主将");
       expect(decoded!.lineup[1].name).toBe("");
-      expect(decoded!.lineup[2].name).toBe("近藤");
+      expect(decoded!.lineup[2].name).toBe("牧");
     });
 
     it("タイトル/ラベルのみでもデコードできる", () => {

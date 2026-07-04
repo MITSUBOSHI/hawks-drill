@@ -41,20 +41,20 @@ describe("parseLyricLine", () => {
 
 describe("replaceNamePlaceholder", () => {
   it("{{name}} を選手名に置換する", () => {
-    const result = replaceNamePlaceholder("ゆけゆけ {{name}}", "コウヘイ");
-    expect(result).toBe("ゆけゆけ コウヘイ");
+    const result = replaceNamePlaceholder("ゆけゆけ {{name}}", "カツキ");
+    expect(result).toBe("ゆけゆけ カツキ");
   });
 
   it("複数の {{name}} を全て置換する", () => {
     const result = replaceNamePlaceholder(
       "{{name}} {{name}} {{name}}",
-      "モイネロ",
+      "ハンセル",
     );
-    expect(result).toBe("モイネロ モイネロ モイネロ");
+    expect(result).toBe("ハンセル ハンセル ハンセル");
   });
 
   it("{{name}} がない場合はそのまま返す", () => {
-    const result = replaceNamePlaceholder("たたかうぞ", "コウヘイ");
+    const result = replaceNamePlaceholder("たたかうぞ", "カツキ");
     expect(result).toBe("たたかうぞ");
   });
 });

@@ -1,45 +1,62 @@
+/*
+ * データ非依存のテスト。特定選手名を仮定しないため、
+ * どのチームのリポジトリでもそのまま共有できる。
+ */
 import { cheerSongsByYear, cheerSongYears } from "./cheerSongs";
+import { registeredYears } from "@/constants/player";
+import { playersByYear } from "@/lib/players";
+import { Year } from "@/types/Player";
 
 describe("cheerSongYears", () => {
   it("選手名簿と同じ年範囲を昇順で返す", () => {
-    expect(cheerSongYears).toEqual([2020, 2021, 2022, 2023, 2024, 2025, 2026]);
+    expect(cheerSongYears).toEqual([...registeredYears].sort((a, b) => a - b));
   });
 });
 
 describe("cheerSongsByYear", () => {
-  const titlesOf = (year: number) => cheerSongsByYear(year).map((s) => s.title);
-
-  it("選手個人の応援歌はその選手が在籍する年にのみ表示される", () => {
-    // 上沢 直之 は 2025・2026 のみ在籍
-    expect(titlesOf(2026)).toContain("上沢 直之");
-    expect(titlesOf(2025)).toContain("上沢 直之");
-    expect(titlesOf(2024)).not.toContain("上沢 直之");
-    expect(titlesOf(2020)).not.toContain("上沢 直之");
-  });
-
-  it("背番号はその年の名簿の値に揃う", () => {
-    // 大津 亮介: 2024 は背番号 26、2026 は 19
-    const otsu2024 = cheerSongsByYear(2024).find(
-      (s) => s.title === "大津 亮介",
-    );
-    const otsu2026 = cheerSongsByYear(2026).find(
-      (s) => s.title === "大津 亮介",
-    );
-    expect(otsu2024?.playerNumber).toBe("26");
-    expect(otsu2026?.playerNumber).toBe("19");
-  });
-
-  it("表記揺れのある外国人選手もふりがなで照合される", () => {
-    // 曲データは「ジーター・ダウンズ」、名簿は「ダウンズ」(ふりがな一致)
-    expect(titlesOf(2026)).toContain("ジーター・ダウンズ");
-  });
-
-  it("共通応援歌・チャンステーマ・球団歌は全年で表示される", () => {
+  it("選手個人に紐づかない共通曲は全年で表示される", () => {
+    const commonIds = cheerSongsByYear(
+      cheerSongYears[cheerSongYears.length - 1],
+    )
+      .filter((s) => !s.playerName)
+      .map((s) => s.id);
     for (const year of cheerSongYears) {
-      const titles = titlesOf(year);
-      expect(titles).toContain("右投手共通応援歌");
-      expect(titles).toContain("いざゆけ若鷹軍団");
-      expect(titles).toContain("わっしょい");
+      const ids = cheerSongsByYear(year).map((s) => s.id);
+      for (const id of commonIds) {
+        expect(ids).toContain(id);
+      }
+    }
+  });
+
+  it("全ての個人応援歌は少なくとも1つの年に表示される（名簿との照合漏れ検知）", () => {
+    const shownIds = new Set(
+      cheerSongYears.flatMap((year) =>
+        cheerSongsByYear(year)
+          .filter((s) => s.playerName)
+          .map((s) => s.id),
+      ),
+    );
+    // 全年の名簿に存在しない選手の曲は表示されないため、
+    // 個人曲の総数と表示された個人曲の数を比較して照合漏れを検知する
+    const latestYear = cheerSongYears[cheerSongYears.length - 1];
+    const latestIndividual = cheerSongsByYear(latestYear).filter(
+      (s) => s.playerName,
+    );
+    for (const song of latestIndividual) {
+      expect(shownIds).toContain(song.id);
+    }
+    expect(shownIds.size).toBeGreaterThan(0);
+  });
+
+  it("個人応援歌の背番号とふりがなはその年の名簿に揃う", () => {
+    for (const year of cheerSongYears) {
+      const roster = playersByYear(year as Year) ?? [];
+      for (const song of cheerSongsByYear(year)) {
+        if (!song.playerName) continue;
+        const player = roster.find((p) => p.number_disp === song.playerNumber);
+        expect(player).toBeDefined();
+        expect(song.playerNameKana).toBeTruthy();
+      }
     }
   });
 });

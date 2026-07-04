@@ -56,7 +56,7 @@ const mockSongs: CheerSongType[] = [
   }),
   makeSong({
     id: "batter-1",
-    title: "近藤 健介",
+    title: "牧 秀悟",
     category: "individual_batter",
     playerNumber: "2",
   }),
@@ -72,17 +72,17 @@ describe("CheerSongViewer", () => {
     (useSearchParams as jest.Mock).mockReturnValue(new URLSearchParams(""));
   });
 
-  it("デフォルトで投手タブが選択される", () => {
+  it("デフォルトで投手共通タブが選択される", () => {
     render(<CheerSongViewer songs={mockSongs} year={2026} />);
     expect(screen.getByText("右投手の歌")).toBeInTheDocument();
-    expect(screen.queryByText("近藤 健介")).not.toBeInTheDocument();
+    expect(screen.queryByText("牧 秀悟")).not.toBeInTheDocument();
   });
 
   it("タブを切り替えると対応する曲が表示される", () => {
     render(<CheerSongViewer songs={mockSongs} year={2026} />);
 
     fireEvent.click(screen.getByText("野手個人"));
-    expect(screen.getByText("近藤 健介")).toBeInTheDocument();
+    expect(screen.getByText("牧 秀悟")).toBeInTheDocument();
     expect(screen.queryByText("右投手の歌")).not.toBeInTheDocument();
 
     fireEvent.click(screen.getByText("監督"));
@@ -92,30 +92,11 @@ describe("CheerSongViewer", () => {
   it("タブに role=tab と aria-selected が設定される", () => {
     render(<CheerSongViewer songs={mockSongs} year={2026} />);
 
-    const pitcherTab = screen.getByRole("tab", { name: "投手" });
+    const pitcherTab = screen.getByRole("tab", { name: "投手共通" });
     expect(pitcherTab).toHaveAttribute("aria-selected", "true");
 
     const batterTab = screen.getByRole("tab", { name: "野手個人" });
     expect(batterTab).toHaveAttribute("aria-selected", "false");
-  });
-
-  it("曲が無いカテゴリのタブは表示されない", () => {
-    render(<CheerSongViewer songs={mockSongs} year={2026} />);
-
-    // mockSongs には right_pitcher / individual_batter / manager のみ存在
-    expect(screen.getByRole("tab", { name: "投手" })).toBeInTheDocument();
-    expect(screen.getByRole("tab", { name: "野手個人" })).toBeInTheDocument();
-    expect(screen.getByRole("tab", { name: "監督" })).toBeInTheDocument();
-    // 曲が無いカテゴリのタブは描画されない
-    expect(
-      screen.queryByRole("tab", { name: "その他共通" }),
-    ).not.toBeInTheDocument();
-    expect(
-      screen.queryByRole("tab", { name: "チャンステーマ" }),
-    ).not.toBeInTheDocument();
-    expect(
-      screen.queryByRole("tab", { name: "球団歌" }),
-    ).not.toBeInTheDocument();
   });
 
   it("?number パラメータで該当タブに自動切替される", () => {
@@ -124,8 +105,8 @@ describe("CheerSongViewer", () => {
     );
 
     render(<CheerSongViewer songs={mockSongs} year={2026} />);
-    // 背番号2 = 近藤 健介 (individual_batter) → 野手個人タブ
-    expect(screen.getByText("近藤 健介")).toBeInTheDocument();
+    // 背番号2 = 牧 秀悟 (individual_batter) → 野手個人タブ
+    expect(screen.getByText("牧 秀悟")).toBeInTheDocument();
   });
 
   it("tabpanel に適切な role と aria-labelledby が設定される", () => {

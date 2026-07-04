@@ -52,8 +52,8 @@ describe("LineupCustomCreator", () => {
   it("名前入力で文字数カウントが更新される", () => {
     render(<LineupCustomCreator />);
     const inputs = screen.getAllByPlaceholderText("選手名を入力");
-    fireEvent.change(inputs[0], { target: { value: "柳田" } });
-    expect((inputs[0] as HTMLInputElement).value).toBe("柳田");
+    fireEvent.change(inputs[0], { target: { value: "佐野" } });
+    expect((inputs[0] as HTMLInputElement).value).toBe("佐野");
     expect(screen.getByText("2/30")).toBeInTheDocument();
   });
 
@@ -88,7 +88,7 @@ describe("LineupCustomCreator", () => {
 
   it("URLパラメータからメモが復元される時はメモ欄が自動で開く", () => {
     const params = new URLSearchParams();
-    params.set("n1", "柳田");
+    params.set("n1", "佐野");
     params.set("m1", "主将");
     mockSearchParams.current = params;
 
@@ -114,7 +114,7 @@ describe("LineupCustomCreator", () => {
   it("リセットで入力値が初期化される", () => {
     render(<LineupCustomCreator />);
     const inputs = screen.getAllByPlaceholderText("選手名を入力");
-    fireEvent.change(inputs[0], { target: { value: "柳田" } });
+    fireEvent.change(inputs[0], { target: { value: "佐野" } });
     fireEvent.click(screen.getByText("リセット"));
     expect(
       (screen.getAllByPlaceholderText("選手名を入力")[0] as HTMLInputElement)
