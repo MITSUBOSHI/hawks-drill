@@ -19,6 +19,17 @@
 }
 
 :root {
+  --home-page-bg: #fffaf0;
+  --home-dot: rgb(248 181 0 / 8%);
+  --home-hero-start: #ffcf3d;
+  --home-hero-end: #e0a500;
+  --home-hero-overlay: rgb(45 32 0 / 12%);
+  --home-hero-text: #171717;
+  --home-hero-muted: #2d240b;
+  --home-kicker-border: rgb(23 23 23 / 28%);
+  --home-kicker-bg: rgb(255 255 255 / 30%);
+  --home-title-shadow: rgb(90 65 0 / 25%);
+  --home-logo-shadow: rgb(80 55 0 / 28%);
   --surface-card: #f9fafb;
   --surface-card-subtle: #ffffff;
   --surface-brand: #fff8e1;
